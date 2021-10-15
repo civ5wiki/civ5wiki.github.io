@@ -1,0 +1,614 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-cn">
+<head><meta http-equiv=Content-Type content='text/html; charset=utf-8'>
+
+	<title>文明5在线百科: 游戏概念</title>
+	<meta name="keywords" content="civilopedia,civilopedia online,civilization,civilization V,civilization 5,civilization5,concept,concepts" />
+	<meta name="description" content="文明5在线百科" />
+	<link rel="Stylesheet" type="text/css" href="styles.css" tppabs="styles.css" />
+	<script type="text/javascript" src="skinnytip.js" tppabs="skinnytip.js"></script>
+</head>
+<body>
+	<div id="tiplayer" style="position:absolute; visibility:hidden; z-index:10000;"></div>
+	<div class="container">
+		<div class="header"><a href="index.html" tppabs="index.php" class="titlelink">文明5在线百科</a></div>
+		<div class="tabrow">
+			<a href="CONCEPT_HOME.php.htm" tppabs="CONCEPT_HOME.php" onmouseover="return tooltip('游戏概念');" onmouseout="return hideTip();"><img src="images/tab_concept_on.png" tppabs="images/tab_concept_on.png" class="tab" id="tab01" /></a>
+			<a href="TECH_HOME.php.htm" tppabs="TECH_HOME.php" onmouseover="return tooltip('科技');" onmouseout="return hideTip();"><img src="images/tab_tech_off.png" tppabs="images/tab_tech_off.png" class="tab" id="tab02" onmouseover="this.src='images/tab_tech_on.png'/*tpa=images/tab_tech_on.png*/;" onmouseout="this.src='images/tab_tech_off.png'/*tpa=images/tab_tech_off.png*/;" /></a>
+			<a href="UNIT_HOME.php.htm" tppabs="UNIT_HOME.php" onmouseover="return tooltip('单位');" onmouseout="return hideTip();"><img src="images/tab_unit_off.png" tppabs="images/tab_unit_off.png" class="tab" id="tab03" onmouseover="this.src='images/tab_unit_on.png'/*tpa=images/tab_unit_on.png*/;" onmouseout="this.src='images/tab_unit_off.png'/*tpa=images/tab_unit_off.png*/;" /></a>
+			<a href="PROMOTION_HOME.php.htm" tppabs="PROMOTION_HOME.php" onmouseover="return tooltip('晋升');" onmouseout="return hideTip();"><img src="images/tab_promotion_off.png" tppabs="images/tab_promotion_off.png" class="tab" id="tab04" onmouseover="this.src='images/tab_promotion_on.png'/*tpa=images/tab_promotion_on.png*/;" onmouseout="this.src='images/tab_promotion_off.png'/*tpa=images/tab_promotion_off.png*/;" /></a>
+			<a href="BUILDING_HOME.php.htm" tppabs="BUILDING_HOME.php" onmouseover="return tooltip('建筑');" onmouseout="return hideTip();"><img src="images/tab_building_off.png" tppabs="images/tab_building_off.png" class="tab" id="tab05" onmouseover="this.src='images/tab_building_on.png'/*tpa=images/tab_building_on.png*/;" onmouseout="this.src='images/tab_building_off.png'/*tpa=images/tab_building_off.png*/;" /></a>
+			<a href="WONDER_HOME.php.htm" tppabs="WONDER_HOME.php" onmouseover="return tooltip('奇观');" onmouseout="return hideTip();"><img src="images/tab_wonder_off.png" tppabs="images/tab_wonder_off.png" class="tab" id="tab06" onmouseover="this.src='images/tab_wonder_on.png'/*tpa=images/tab_wonder_on.png*/;" onmouseout="this.src='images/tab_wonder_off.png'/*tpa=images/tab_wonder_off.png*/;" /></a>
+			<a href="POLICY_HOME.php.htm" tppabs="POLICY_HOME.php" onmouseover="return tooltip('社会政策');" onmouseout="return hideTip();"><img src="images/tab_policy_off.png" tppabs="images/tab_policy_off.png" class="tab" id="tab07" onmouseover="this.src='images/tab_policy_on.png'/*tpa=images/tab_policy_on.png*/;" onmouseout="this.src='images/tab_policy_off.png'/*tpa=images/tab_policy_off.png*/;" /></a>
+			<a href="GREAT_PERSON_HOME.php.htm" tppabs="GREAT_PERSON_HOME.php" onmouseover="return tooltip('专业人员和伟人');" onmouseout="return hideTip();"><img src="images/tab_great_people_off.png" tppabs="images/tab_great_people_off.png" class="tab" id="tab08" onmouseover="this.src='images/tab_great_people_on.png'/*tpa=images/tab_great_people_on.png*/;" onmouseout="this.src='images/tab_great_people_off.png'/*tpa=images/tab_great_people_off.png*/;" /></a>
+			<a href="CIVILIZATION_HOME.php.htm" tppabs="CIVILIZATION_HOME.php" onmouseover="return tooltip('文明和领袖');" onmouseout="return hideTip();"><img src="images/tab_civilization_off.png" tppabs="images/tab_civilization_off.png" class="tab" id="tab09" onmouseover="this.src='images/tab_civilization_on.png'/*tpa=images/tab_civilization_on.png*/;" onmouseout="this.src='images/tab_civilization_off.png'/*tpa=images/tab_civilization_off.png*/;" /></a>
+			<a href="CITY_STATE_HOME.php.htm" tppabs="CITY_STATE_HOME.php" onmouseover="return tooltip('城邦');" onmouseout="return hideTip();"><img src="images/tab_city_state_off.png" tppabs="images/tab_city_state_off.png" class="tab" id="tab10" onmouseover="this.src='images/tab_city_state_on.png'/*tpa=images/tab_city_state_on.png*/;" onmouseout="this.src='images/tab_city_state_off.png'/*tpa=images/tab_city_state_off.png*/;" /></a>
+			<a href="TERRAIN_HOME.php.htm" tppabs="TERRAIN_HOME.php" onmouseover="return tooltip('地形和地貌');" onmouseout="return hideTip();"><img src="images/tab_terrain_off.png" tppabs="images/tab_terrain_off.png" class="tab" id="tab11" onmouseover="this.src='images/tab_terrain_on.png'/*tpa=images/tab_terrain_on.png*/;" onmouseout="this.src='images/tab_terrain_off.png'/*tpa=images/tab_terrain_off.png*/;" /></a>
+			<a href="RESOURCE_HOME.php.htm" tppabs="RESOURCE_HOME.php" onmouseover="return tooltip('资源');" onmouseout="return hideTip();"><img src="images/tab_resources_off.png" tppabs="images/tab_resources_off.png" class="tab" id="tab12" onmouseover="this.src='images/tab_resources_on.png'/*tpa=images/tab_resources_on.png*/;" onmouseout="this.src='images/tab_resources_off.png'/*tpa=images/tab_resources_off.png*/;" /></a>
+			<a href="IMPROVEMENT_HOME.php.htm" tppabs="IMPROVEMENT_HOME.php" onmouseover="return tooltip('地域设施');" onmouseout="return hideTip();"><img src="images/tab_improvement_off.png" tppabs="images/tab_improvement_off.png" class="tab" id="tab13" onmouseover="this.src='images/tab_improvement_on.png'/*tpa=images/tab_improvement_on.png*/;" onmouseout="this.src='images/tab_improvement_off.png'/*tpa=images/tab_improvement_off.png*/;" /></a>
+			<a href="RELIGION_HOME.php.htm" tppabs="RELIGION_HOME.php" onmouseover="return tooltip('宗教');" onmouseout="return hideTip();"><img src="images/tab_religion_off.png" tppabs="images/tab_religion_off.png" class="tab" id="tab14" onmouseover="this.src='images/tab_religion_on.png'/*tpa=images/tab_religion_on.png*/;" onmouseout="this.src='images/tab_religion_off.png'/*tpa=images/tab_religion_off.png*/;" /></a>
+			<a href="RESOLUTION_HOME.php.htm" tppabs="RESOLUTION_HOME.php" onmouseover="return tooltip('世界议会');" onmouseout="return hideTip();"><img src="images/tab_resolution_off.png" tppabs="images/tab_resolution_off.png" class="tab" id="tab15" onmouseover="this.src='images/tab_resolution_on.png'/*tpa=images/tab_resolution_on.png*/;" onmouseout="this.src='images/tab_resolution_off.png'/*tpa=images/tab_resolution_off.png*/;" /></a>
+		</div>
+		<div class="bordertop">游戏概念
+			<div style="position: absolute; top: 78px; left: 860px;">
+				<select name="cboLanguage" id="cboLanguage" style="float: left; margin-top: 20px;" onchange="cboLanguage_SelectedIndexChanged();">				<option value="">Language:</option>
+				<option value="">中文(Chinese)</option>
+				<option value="en-us">English</option>
+</select>
+			</div>
+		</div>
+		<div class="content">
+			<div class="menu">
+				
+				<a href="CONCEPT_HOME.php.htm" tppabs="CONCEPT_HOME.php"><div id="CONCEPT_HOME" class="menuitem">游戏概念主页</div></a>
+			<div id="GROUP_HEADER_CITIES" class="menugroupcontainer"><a href="javascript:togglediv('HEADER_CITIES_CONTENT');"><div id="HEADER_CITIES" class="menugroup">城市</div></a><div id="HEADER_CITIES_CONTENT">
+				<a href="CONCEPT_CITIES.php.htm" tppabs="CONCEPT_CITIES.php"><div id="CONCEPT_CITIES" class="menuitem">城市</div></a>
+				<a href="CONCEPT_FOUNDING_CITIES.php.htm" tppabs="CONCEPT_FOUNDING_CITIES.php"><div id="CONCEPT_FOUNDING_CITIES" class="menuitem">怎样建造城市</div></a>
+				<a href="CONCEPT_WHERE_TO_FOUND_CITIES.php.htm" tppabs="CONCEPT_WHERE_TO_FOUND_CITIES.php"><div id="CONCEPT_WHERE_TO_FOUND_CITIES" class="menuitem">在哪里兴建城市？</div></a>
+				<a href="CONCEPT_CITY_BANNER.php.htm" tppabs="CONCEPT_CITY_BANNER.php"><div id="CONCEPT_CITY_BANNER" class="menuitem">城市信息条</div></a>
+				<a href="CONCEPT_CITY_SCREEN.php.htm" tppabs="CONCEPT_CITY_SCREEN.php"><div id="CONCEPT_CITY_SCREEN" class="menuitem">城市管理界面</div></a>
+				<a href="CONCEPT_CITY_COMBATUNITS.php.htm" tppabs="CONCEPT_CITY_COMBATUNITS.php"><div id="CONCEPT_CITY_COMBATUNITS" class="menuitem">战斗单位</div></a>
+				<a href="CONCEPT_CITY_CONSTRUCTION.php.htm" tppabs="CONCEPT_CITY_CONSTRUCTION.php"><div id="CONCEPT_CITY_CONSTRUCTION" class="menuitem">城市建造项目</div></a>
+				<a href="CONCEPT_CITY_BUILD.php.htm" tppabs="CONCEPT_CITY_BUILD.php"><div id="CONCEPT_CITY_BUILD" class="menuitem">城市建造菜单</div></a>
+				<a href="CONCEPT_CITY_CHANGE_BUILD.php.htm" tppabs="CONCEPT_CITY_CHANGE_BUILD.php"><div id="CONCEPT_CITY_CHANGE_BUILD" class="menuitem">改变建造项目</div></a>
+				<a href="CONCEPT_CITY_PURCHASEITEM.php.htm" tppabs="CONCEPT_CITY_PURCHASEITEM.php"><div id="CONCEPT_CITY_PURCHASEITEM" class="menuitem">购买东西</div></a>
+				<a href="CONCEPT_CITY_CONSTRUCTING_UNITS.php.htm" tppabs="CONCEPT_CITY_CONSTRUCTING_UNITS.php"><div id="CONCEPT_CITY_CONSTRUCTING_UNITS" class="menuitem">训练单位</div></a>
+				<a href="CONCEPT_CITY_CONSTRUCTING_BUILDINGS.php.htm" tppabs="CONCEPT_CITY_CONSTRUCTING_BUILDINGS.php"><div id="CONCEPT_CITY_CONSTRUCTING_BUILDINGS" class="menuitem">建造建筑</div></a>
+				<a href="CONCEPT_CITY_CONSTRUCTING_WONDERS.php.htm" tppabs="CONCEPT_CITY_CONSTRUCTING_WONDERS.php"><div id="CONCEPT_CITY_CONSTRUCTING_WONDERS" class="menuitem">建造奇观</div></a>
+				<a href="CONCEPT_CITY_WORKINGLAND.php.htm" tppabs="CONCEPT_CITY_WORKINGLAND.php"><div id="CONCEPT_CITY_WORKINGLAND" class="menuitem">在区块上工作</div></a>
+				<a href="CONCEPT_CITY_ASSIGNINGCITIZENS.php.htm" tppabs="CONCEPT_CITY_ASSIGNINGCITIZENS.php"><div id="CONCEPT_CITY_ASSIGNINGCITIZENS" class="menuitem">分派市民在区块上工作</div></a>
+				<a href="CONCEPT_CITY_IMPROVINGLAND.php.htm" tppabs="CONCEPT_CITY_IMPROVINGLAND.php"><div id="CONCEPT_CITY_IMPROVINGLAND" class="menuitem">改造区块</div></a>
+				<a href="CONCEPT_CITY_SPECIALISTS.php.htm" tppabs="CONCEPT_CITY_SPECIALISTS.php"><div id="CONCEPT_CITY_SPECIALISTS" class="menuitem">专业人员</div></a>
+				<a href="CONCEPT_CITY_SPECIALISTS_NOTWORKTILE.php.htm" tppabs="CONCEPT_CITY_SPECIALISTS_NOTWORKTILE.php"><div id="CONCEPT_CITY_SPECIALISTS_NOTWORKTILE" class="menuitem">专业人员不在区块上工作</div></a>
+				<a href="CONCEPT_CITY_SPECIALISTS_BENEFIT.php.htm" tppabs="CONCEPT_CITY_SPECIALISTS_BENEFIT.php"><div id="CONCEPT_CITY_SPECIALISTS_BENEFIT" class="menuitem">专业人员的好处</div></a>
+				<a href="CONCEPT_CITY_UNEMPLOYED_CITIZENS.php.htm" tppabs="CONCEPT_CITY_UNEMPLOYED_CITIZENS.php"><div id="CONCEPT_CITY_UNEMPLOYED_CITIZENS" class="menuitem">未分配市民</div></a>
+				<a href="CONCEPT_CITY_COMBAT.php.htm" tppabs="CONCEPT_CITY_COMBAT.php"><div id="CONCEPT_CITY_COMBAT" class="menuitem">城市攻防</div></a>
+				<a href="CONCEPT_CITY_ATTACKING_MELEE.php.htm" tppabs="CONCEPT_CITY_ATTACKING_MELEE.php"><div id="CONCEPT_CITY_ATTACKING_MELEE" class="menuitem">攻击一座城市</div></a>
+				<a href="CONCEPT_CITY_ATTACKING_RANGED.php.htm" tppabs="CONCEPT_CITY_ATTACKING_RANGED.php"><div id="CONCEPT_CITY_ATTACKING_RANGED" class="menuitem">用远程单位攻击</div></a>
+				<a href="CONCEPT_CITY_DEFENDING.php.htm" tppabs="CONCEPT_CITY_DEFENDING.php"><div id="CONCEPT_CITY_DEFENDING" class="menuitem">防御一座城市</div></a>
+				<a href="CONCEPT_CITY_CONQUERING.php.htm" tppabs="CONCEPT_CITY_CONQUERING.php"><div id="CONCEPT_CITY_CONQUERING" class="menuitem">占领一座城市</div></a>
+				<a href="CONCEPT_CITY_DESTROY.php.htm" tppabs="CONCEPT_CITY_DESTROY.php"><div id="CONCEPT_CITY_DESTROY" class="menuitem">摧毁城市</div></a>
+				<a href="CONCEPT_CITY_INDESTRUCTABLE.php.htm" tppabs="CONCEPT_CITY_INDESTRUCTABLE.php"><div id="CONCEPT_CITY_INDESTRUCTABLE" class="menuitem">不能摧毁的城市</div></a>
+				<a href="CONCEPT_CITY_ANNEX.php.htm" tppabs="CONCEPT_CITY_ANNEX.php"><div id="CONCEPT_CITY_ANNEX" class="menuitem">吞并城市</div></a>
+				<a href="CONCEPT_CITY_PUPPET.php.htm" tppabs="CONCEPT_CITY_PUPPET.php"><div id="CONCEPT_CITY_PUPPET" class="menuitem">把城市变成傀儡</div></a>
+				<a href="CONCEPT_BUILDINGS.php.htm" tppabs="CONCEPT_BUILDINGS.php"><div id="CONCEPT_BUILDINGS" class="menuitem">建筑</div></a>
+				<a href="CONCEPT_BUILDINGS_CONSTRUCTION.php.htm" tppabs="CONCEPT_BUILDINGS_CONSTRUCTION.php"><div id="CONCEPT_BUILDINGS_CONSTRUCTION" class="menuitem">怎样建造建筑</div></a>
+				<a href="CONCEPT_BUILDINGS_PURCHASING.php.htm" tppabs="CONCEPT_BUILDINGS_PURCHASING.php"><div id="CONCEPT_BUILDINGS_PURCHASING" class="menuitem">更改建造命令或购买</div></a>
+				<a href="CONCEPT_BUILDINGS_PREREQUISITES.php.htm" tppabs="CONCEPT_BUILDINGS_PREREQUISITES.php"><div id="CONCEPT_BUILDINGS_PREREQUISITES" class="menuitem">建筑的先决条件</div></a>
+				<a href="CONCEPT_BUILDINGS_MAINTENANCE.php.htm" tppabs="CONCEPT_BUILDINGS_MAINTENANCE.php"><div id="CONCEPT_BUILDINGS_MAINTENANCE" class="menuitem">建筑维护费</div></a>
+				<a href="CONCEPT_BUILDINGS_PALACE.php.htm" tppabs="CONCEPT_BUILDINGS_PALACE.php"><div id="CONCEPT_BUILDINGS_PALACE" class="menuitem">宫殿</div></a>
+				<a href="CONCEPT_BUILDINGS_CAPTURED_CITIES.php.htm" tppabs="CONCEPT_BUILDINGS_CAPTURED_CITIES.php"><div id="CONCEPT_BUILDINGS_CAPTURED_CITIES" class="menuitem">被占领的城市</div></a>
+			</div></div>
+			<div id="GROUP_HEADER_COMBAT" class="menugroupcontainer"><a href="javascript:togglediv('HEADER_COMBAT_CONTENT');"><div id="HEADER_COMBAT" class="menugroup">战斗规则</div></a><div id="HEADER_COMBAT_CONTENT">
+				<a href="CONCEPT_COMBAT.php.htm" tppabs="CONCEPT_COMBAT.php"><div id="CONCEPT_COMBAT" class="menuitem">战斗</div></a>
+				<a href="CONCEPT_COMBAT_DECLARE_WAR.php.htm" tppabs="CONCEPT_COMBAT_DECLARE_WAR.php"><div id="CONCEPT_COMBAT_DECLARE_WAR" class="menuitem">宣战</div></a>
+				<a href="CONCEPT_COMBAT_DECLARE_WAR_DIPLOMATICALLY.php.htm" tppabs="CONCEPT_COMBAT_DECLARE_WAR_DIPLOMATICALLY.php"><div id="CONCEPT_COMBAT_DECLARE_WAR_DIPLOMATICALLY" class="menuitem">通过外交方式宣战</div></a>
+				<a href="CONCEPT_COMBAT_DECLARE_WAR_ATTACK_UNIT.php.htm" tppabs="CONCEPT_COMBAT_DECLARE_WAR_ATTACK_UNIT.php"><div id="CONCEPT_COMBAT_DECLARE_WAR_ATTACK_UNIT" class="menuitem">进攻另一个单位</div></a>
+				<a href="CONCEPT_COMBAT_DECLARE_WAR_ENTER_TERRITORY.php.htm" tppabs="CONCEPT_COMBAT_DECLARE_WAR_ENTER_TERRITORY.php"><div id="CONCEPT_COMBAT_DECLARE_WAR_ENTER_TERRITORY" class="menuitem">进入一个文明的领土</div></a>
+				<a href="CONCEPT_COMBAT_DECLARE_WAR_RECEIVED.php.htm" tppabs="CONCEPT_COMBAT_DECLARE_WAR_RECEIVED.php"><div id="CONCEPT_COMBAT_DECLARE_WAR_RECEIVED" class="menuitem">敌方的宣战</div></a>
+				<a href="CONCEPT_COMBAT_END_WAR.php.htm" tppabs="CONCEPT_COMBAT_END_WAR.php"><div id="CONCEPT_COMBAT_END_WAR" class="menuitem">结束战争</div></a>
+				<a href="CONCEPT_COMBAT_WHICH_UNITS_CAN_FIGHT.php.htm" tppabs="CONCEPT_COMBAT_WHICH_UNITS_CAN_FIGHT.php"><div id="CONCEPT_COMBAT_WHICH_UNITS_CAN_FIGHT" class="menuitem">什么单位可以战斗</div></a>
+				<a href="CONCEPT_COMBAT_UNIT_STATS.php.htm" tppabs="CONCEPT_COMBAT_UNIT_STATS.php"><div id="CONCEPT_COMBAT_UNIT_STATS" class="menuitem">单位战斗数据</div></a>
+				<a href="CONCEPT_COMBAT_UNIT_STATS_RANGED_COMBAT_STRENGTH.php.htm" tppabs="CONCEPT_COMBAT_UNIT_STATS_RANGED_COMBAT_STRENGTH.php"><div id="CONCEPT_COMBAT_UNIT_STATS_RANGED_COMBAT_STRENGTH" class="menuitem">远程战斗力</div></a>
+				<a href="CONCEPT_COMBAT_UNIT_STATS_RANGE.php.htm" tppabs="CONCEPT_COMBAT_UNIT_STATS_RANGE.php"><div id="CONCEPT_COMBAT_UNIT_STATS_RANGE" class="menuitem">射程</div></a>
+				<a href="CONCEPT_COMBAT_UNIT_STATS_COMBAT_STRENGTH.php.htm" tppabs="CONCEPT_COMBAT_UNIT_STATS_COMBAT_STRENGTH.php"><div id="CONCEPT_COMBAT_UNIT_STATS_COMBAT_STRENGTH" class="menuitem">战斗力</div></a>
+				<a href="CONCEPT_COMBAT_UNIT_STATS_HIT_POINTS.php.htm" tppabs="CONCEPT_COMBAT_UNIT_STATS_HIT_POINTS.php"><div id="CONCEPT_COMBAT_UNIT_STATS_HIT_POINTS" class="menuitem">生命值</div></a>
+				<a href="CONCEPT_COMBAT_MELEE_COMBAT.php.htm" tppabs="CONCEPT_COMBAT_MELEE_COMBAT.php"><div id="CONCEPT_COMBAT_MELEE_COMBAT" class="menuitem">近战</div></a>
+				<a href="CONCEPT_COMBAT_MELEE_COMBAT_RESOLVE.php.htm" tppabs="CONCEPT_COMBAT_MELEE_COMBAT_RESOLVE.php"><div id="CONCEPT_COMBAT_MELEE_COMBAT_RESOLVE" class="menuitem">解析近战</div></a>
+				<a href="CONCEPT_COMBAT_MELEE_MULTIPLE_UNITS.php.htm" tppabs="CONCEPT_COMBAT_MELEE_MULTIPLE_UNITS.php"><div id="CONCEPT_COMBAT_MELEE_MULTIPLE_UNITS" class="menuitem">战斗中的多个单位</div></a>
+				<a href="CONCEPT_COMBAT_COMBAT_INFORMATION_TABLE.php.htm" tppabs="CONCEPT_COMBAT_COMBAT_INFORMATION_TABLE.php"><div id="CONCEPT_COMBAT_COMBAT_INFORMATION_TABLE" class="menuitem">战斗信息面板</div></a>
+				<a href="CONCEPT_COMBAT_MELEE_INITIATING_COMBAT.php.htm" tppabs="CONCEPT_COMBAT_MELEE_INITIATING_COMBAT.php"><div id="CONCEPT_COMBAT_MELEE_INITIATING_COMBAT" class="menuitem">触发近战</div></a>
+				<a href="CONCEPT_COMBAT_MELEE_RESULTS.php.htm" tppabs="CONCEPT_COMBAT_MELEE_RESULTS.php"><div id="CONCEPT_COMBAT_MELEE_RESULTS" class="menuitem">近战结果</div></a>
+				<a href="CONCEPT_COMBAT_RANGED_COMBAT.php.htm" tppabs="CONCEPT_COMBAT_RANGED_COMBAT.php"><div id="CONCEPT_COMBAT_RANGED_COMBAT" class="menuitem">远程战斗</div></a>
+				<a href="CONCEPT_COMBAT_RANGED_COMBAT_STRENGTH.php.htm" tppabs="CONCEPT_COMBAT_RANGED_COMBAT_STRENGTH.php"><div id="CONCEPT_COMBAT_RANGED_COMBAT_STRENGTH" class="menuitem">远程战斗力</div></a>
+				<a href="CONCEPT_COMBAT_RANGED_COMBAT_RANGE.php.htm" tppabs="CONCEPT_COMBAT_RANGED_COMBAT_RANGE.php"><div id="CONCEPT_COMBAT_RANGED_COMBAT_RANGE" class="menuitem">射程</div></a>
+				<a href="CONCEPT_COMBAT_RANGED_LINE_OF_SIGHT.php.htm" tppabs="CONCEPT_COMBAT_RANGED_LINE_OF_SIGHT.php"><div id="CONCEPT_COMBAT_RANGED_LINE_OF_SIGHT" class="menuitem">视野</div></a>
+				<a href="CONCEPT_COMBAT_RANGED_INITIATING_COMBAT.php.htm" tppabs="CONCEPT_COMBAT_RANGED_INITIATING_COMBAT.php"><div id="CONCEPT_COMBAT_RANGED_INITIATING_COMBAT" class="menuitem">触发远程战斗</div></a>
+				<a href="CONCEPT_COMBAT_RANGED_RESULTS.php.htm" tppabs="CONCEPT_COMBAT_RANGED_RESULTS.php"><div id="CONCEPT_COMBAT_RANGED_RESULTS" class="menuitem">远程战斗结果</div></a>
+				<a href="CONCEPT_COMBAT_BONUSES.php.htm" tppabs="CONCEPT_COMBAT_BONUSES.php"><div id="CONCEPT_COMBAT_BONUSES" class="menuitem">战斗加成</div></a>
+				<a href="CONCEPT_COMBAT_BONUSES_TERRAIN.php.htm" tppabs="CONCEPT_COMBAT_BONUSES_TERRAIN.php"><div id="CONCEPT_COMBAT_BONUSES_TERRAIN" class="menuitem">地形优势</div></a>
+				<a href="CONCEPT_COMBAT_BONUSES_FORT.php.htm" tppabs="CONCEPT_COMBAT_BONUSES_FORT.php"><div id="CONCEPT_COMBAT_BONUSES_FORT" class="menuitem">堡垒</div></a>
+				<a href="CONCEPT_COMBAT_FORTIFICATION_EXPLANATION.php.htm" tppabs="CONCEPT_COMBAT_FORTIFICATION_EXPLANATION.php"><div id="CONCEPT_COMBAT_FORTIFICATION_EXPLANATION" class="menuitem">驻扎</div></a>
+				<a href="CONCEPT_COMBAT_FORTIFICATION_WHICH_UNITS_CAN_FORTIFY.php.htm" tppabs="CONCEPT_COMBAT_FORTIFICATION_WHICH_UNITS_CAN_FORTIFY.php"><div id="CONCEPT_COMBAT_FORTIFICATION_WHICH_UNITS_CAN_FORTIFY" class="menuitem">哪些单位可以驻扎</div></a>
+				<a href="CONCEPT_COMBAT_BONUSES_FORTIFICATION.php.htm" tppabs="CONCEPT_COMBAT_BONUSES_FORTIFICATION.php"><div id="CONCEPT_COMBAT_BONUSES_FORTIFICATION" class="menuitem">驻扎加成</div></a>
+				<a href="CONCEPT_COMBAT_ALERT.php.htm" tppabs="CONCEPT_COMBAT_ALERT.php"><div id="CONCEPT_COMBAT_ALERT" class="menuitem">警戒命令</div></a>
+				<a href="CONCEPT_COMBAT_NAVAL.php.htm" tppabs="CONCEPT_COMBAT_NAVAL.php"><div id="CONCEPT_COMBAT_NAVAL" class="menuitem">海上战斗</div></a>
+				<a href="CONCEPT_COMBAT_CITY_COMBAT_STRENGTH.php.htm" tppabs="CONCEPT_COMBAT_CITY_COMBAT_STRENGTH.php"><div id="CONCEPT_COMBAT_CITY_COMBAT_STRENGTH" class="menuitem">攻城战</div></a>
+				<a href="CONCEPT_COMBAT_CITY_HIT_POINTS.php.htm" tppabs="CONCEPT_COMBAT_CITY_HIT_POINTS.php"><div id="CONCEPT_COMBAT_CITY_HIT_POINTS" class="menuitem">城市生命值</div></a>
+				<a href="CONCEPT_COMBAT_CITY_ATTACKING_WITH_RANGED_UNITS.php.htm" tppabs="CONCEPT_COMBAT_CITY_ATTACKING_WITH_RANGED_UNITS.php"><div id="CONCEPT_COMBAT_CITY_ATTACKING_WITH_RANGED_UNITS" class="menuitem">对城市进行远程打击</div></a>
+				<a href="CONCEPT_COMBAT_CITY_ATTACKING_WITH_MELEE_UNITS.php.htm" tppabs="CONCEPT_COMBAT_CITY_ATTACKING_WITH_MELEE_UNITS.php"><div id="CONCEPT_COMBAT_CITY_ATTACKING_WITH_MELEE_UNITS" class="menuitem">对城市进行近战攻击</div></a>
+				<a href="CONCEPT_COMBAT_CITY_GARRISON.php.htm" tppabs="CONCEPT_COMBAT_CITY_GARRISON.php"><div id="CONCEPT_COMBAT_CITY_GARRISON" class="menuitem">城市的镇守部队</div></a>
+				<a href="CONCEPT_COMBAT_CITY_BOMBARD.php.htm" tppabs="CONCEPT_COMBAT_CITY_BOMBARD.php"><div id="CONCEPT_COMBAT_CITY_BOMBARD" class="menuitem">城市向攻击者射击</div></a>
+				<a href="CONCEPT_COMBAT_CITY_CAPTURE.php.htm" tppabs="CONCEPT_COMBAT_CITY_CAPTURE.php"><div id="CONCEPT_COMBAT_CITY_CAPTURE" class="menuitem">攻占城市</div></a>
+				<a href="CONCEPT_COMBAT_CITY_CAPTURE_MORE.php.htm" tppabs="CONCEPT_COMBAT_CITY_CAPTURE_MORE.php"><div id="CONCEPT_COMBAT_CITY_CAPTURE_MORE" class="menuitem">夺取城市的特殊规则</div></a>
+				<a href="CONCEPT_COMBAT_SIEGE.php.htm" tppabs="CONCEPT_COMBAT_SIEGE.php"><div id="CONCEPT_COMBAT_SIEGE" class="menuitem">压制武器</div></a>
+				<a href="CONCEPT_COMBAT_GREAT_GENERAL.php.htm" tppabs="CONCEPT_COMBAT_GREAT_GENERAL.php"><div id="CONCEPT_COMBAT_GREAT_GENERAL" class="menuitem">陆军统帅</div></a>
+				<a href="CONCEPT_COMBAT_UNIT_COMBAT_DAMAGE.php.htm" tppabs="CONCEPT_COMBAT_UNIT_COMBAT_DAMAGE.php"><div id="CONCEPT_COMBAT_UNIT_COMBAT_DAMAGE" class="menuitem">战斗伤害</div></a>
+				<a href="CONCEPT_COMBAT_UNIT_GROUND_HEALING_DAMAGE.php.htm" tppabs="CONCEPT_COMBAT_UNIT_GROUND_HEALING_DAMAGE.php"><div id="CONCEPT_COMBAT_UNIT_GROUND_HEALING_DAMAGE" class="menuitem">恢复损伤</div></a>
+				<a href="CONCEPT_COMBAT_UNIT_NAVAL_HEALING_DAMAGE.php.htm" tppabs="CONCEPT_COMBAT_UNIT_NAVAL_HEALING_DAMAGE.php"><div id="CONCEPT_COMBAT_UNIT_NAVAL_HEALING_DAMAGE" class="menuitem">海军的恢复损伤</div></a>
+				<a href="CONCEPT_COMBAT_FORTIFY_UNTIL_HEALED.php.htm" tppabs="CONCEPT_COMBAT_FORTIFY_UNTIL_HEALED.php"><div id="CONCEPT_COMBAT_FORTIFY_UNTIL_HEALED" class="menuitem">“驻扎至恢复”按钮</div></a>
+				<a href="CONCEPT_COMBAT_EXPERIENCE_AND_PROMOTIONS.php.htm" tppabs="CONCEPT_COMBAT_EXPERIENCE_AND_PROMOTIONS.php"><div id="CONCEPT_COMBAT_EXPERIENCE_AND_PROMOTIONS" class="menuitem">经验和晋升</div></a>
+				<a href="CONCEPT_COMBAT_EXPERIENCE_ACCUMULATING_COMBAT.php.htm" tppabs="CONCEPT_COMBAT_EXPERIENCE_ACCUMULATING_COMBAT.php"><div id="CONCEPT_COMBAT_EXPERIENCE_ACCUMULATING_COMBAT" class="menuitem">在战斗中获取经验</div></a>
+				<a href="CONCEPT_COMBAT_EXPERIENCE_ACCUMULATING_OTHER.php.htm" tppabs="CONCEPT_COMBAT_EXPERIENCE_ACCUMULATING_OTHER.php"><div id="CONCEPT_COMBAT_EXPERIENCE_ACCUMULATING_OTHER" class="menuitem">其他获取经验的方法</div></a>
+				<a href="CONCEPT_COMBAT_EXPERIENCE_SPENDING.php.htm" tppabs="CONCEPT_COMBAT_EXPERIENCE_SPENDING.php"><div id="CONCEPT_COMBAT_EXPERIENCE_SPENDING" class="menuitem">消耗经验</div></a>
+				<a href="CONCEPT_COMBAT_PROMOTIONS.php.htm" tppabs="CONCEPT_COMBAT_PROMOTIONS.php"><div id="CONCEPT_COMBAT_PROMOTIONS" class="menuitem">晋升列表</div></a>
+			</div></div>
+			<div id="GROUP_HEADER_TERRAIN" class="menugroupcontainer"><a href="javascript:togglediv('HEADER_TERRAIN_CONTENT');"><div id="HEADER_TERRAIN" class="menugroup">地形和地貌</div></a><div id="HEADER_TERRAIN_CONTENT">
+				<a href="CONCEPT_TERRAIN.php.htm" tppabs="CONCEPT_TERRAIN.php"><div id="CONCEPT_TERRAIN" class="menuitem">地形</div></a>
+				<a href="CONCEPT_TERRAIN_RESOURCES.php.htm" tppabs="CONCEPT_TERRAIN_RESOURCES.php"><div id="CONCEPT_TERRAIN_RESOURCES" class="menuitem">资源</div></a>
+				<a href="CONCEPT_TERRAIN_TABLES.php.htm" tppabs="CONCEPT_TERRAIN_TABLES.php"><div id="CONCEPT_TERRAIN_TABLES" class="menuitem">地形表格</div></a>
+				<a href="CONCEPT_TERRAIN_TYPES.php.htm" tppabs="CONCEPT_TERRAIN_TYPES.php"><div id="CONCEPT_TERRAIN_TYPES" class="menuitem">地形种类</div></a>
+				<a href="CONCEPT_TERRAIN_VALUES.php.htm" tppabs="CONCEPT_TERRAIN_VALUES.php"><div id="CONCEPT_TERRAIN_VALUES" class="menuitem">解释地形的数据</div></a>
+				<a href="CONCEPT_TERRAIN_COAST.php.htm" tppabs="CONCEPT_TERRAIN_COAST.php"><div id="CONCEPT_TERRAIN_COAST" class="menuitem">海滨</div></a>
+				<a href="CONCEPT_TERRAIN_DESERT.php.htm" tppabs="CONCEPT_TERRAIN_DESERT.php"><div id="CONCEPT_TERRAIN_DESERT" class="menuitem">沙漠</div></a>
+				<a href="CONCEPT_TERRAIN_GRASSLAND.php.htm" tppabs="CONCEPT_TERRAIN_GRASSLAND.php"><div id="CONCEPT_TERRAIN_GRASSLAND" class="menuitem">草原</div></a>
+				<a href="CONCEPT_TERRAIN_HILLS.php.htm" tppabs="CONCEPT_TERRAIN_HILLS.php"><div id="CONCEPT_TERRAIN_HILLS" class="menuitem">丘陵</div></a>
+				<a href="CONCEPT_TERRAIN_MOUNTAINS.php.htm" tppabs="CONCEPT_TERRAIN_MOUNTAINS.php"><div id="CONCEPT_TERRAIN_MOUNTAINS" class="menuitem">山脉</div></a>
+				<a href="CONCEPT_TERRAIN_OCEANS.php.htm" tppabs="CONCEPT_TERRAIN_OCEANS.php"><div id="CONCEPT_TERRAIN_OCEANS" class="menuitem">大洋</div></a>
+				<a href="CONCEPT_TERRAIN_PLAINS.php.htm" tppabs="CONCEPT_TERRAIN_PLAINS.php"><div id="CONCEPT_TERRAIN_PLAINS" class="menuitem">平原</div></a>
+				<a href="CONCEPT_TERRAIN_SNOW.php.htm" tppabs="CONCEPT_TERRAIN_SNOW.php"><div id="CONCEPT_TERRAIN_SNOW" class="menuitem">雪原</div></a>
+				<a href="CONCEPT_TERRAIN_TUNDRA.php.htm" tppabs="CONCEPT_TERRAIN_TUNDRA.php"><div id="CONCEPT_TERRAIN_TUNDRA" class="menuitem">冻土</div></a>
+				<a href="CONCEPT_TERRAIN_FEATURES.php.htm" tppabs="CONCEPT_TERRAIN_FEATURES.php"><div id="CONCEPT_TERRAIN_FEATURES" class="menuitem">地貌</div></a>
+				<a href="CONCEPT_TERRAIN_FEATURE_VALUES.php.htm" tppabs="CONCEPT_TERRAIN_FEATURE_VALUES.php"><div id="CONCEPT_TERRAIN_FEATURE_VALUES" class="menuitem">地貌的数据</div></a>
+				<a href="CONCEPT_TERRAIN_FEATURE_FALLOUT.php.htm" tppabs="CONCEPT_TERRAIN_FEATURE_FALLOUT.php"><div id="CONCEPT_TERRAIN_FEATURE_FALLOUT" class="menuitem">辐射</div></a>
+				<a href="CONCEPT_TERRAIN_FEATURE_FLOOD_PLAINS.php.htm" tppabs="CONCEPT_TERRAIN_FEATURE_FLOOD_PLAINS.php"><div id="CONCEPT_TERRAIN_FEATURE_FLOOD_PLAINS" class="menuitem">冲积平原</div></a>
+				<a href="CONCEPT_TERRAIN_FEATURE_FORESTS.php.htm" tppabs="CONCEPT_TERRAIN_FEATURE_FORESTS.php"><div id="CONCEPT_TERRAIN_FEATURE_FORESTS" class="menuitem">森林</div></a>
+				<a href="CONCEPT_TERRAIN_FEATURE_ICE.php.htm" tppabs="CONCEPT_TERRAIN_FEATURE_ICE.php"><div id="CONCEPT_TERRAIN_FEATURE_ICE" class="menuitem">冰原</div></a>
+				<a href="CONCEPT_TERRAIN_FEATURE_JUNGLE.php.htm" tppabs="CONCEPT_TERRAIN_FEATURE_JUNGLE.php"><div id="CONCEPT_TERRAIN_FEATURE_JUNGLE" class="menuitem">丛林</div></a>
+				<a href="CONCEPT_TERRAIN_FEATURE_MARSH.php.htm" tppabs="CONCEPT_TERRAIN_FEATURE_MARSH.php"><div id="CONCEPT_TERRAIN_FEATURE_MARSH" class="menuitem">沼泽</div></a>
+				<a href="CONCEPT_TERRAIN_FEATURE_NATURAL_WONDER.php.htm" tppabs="CONCEPT_TERRAIN_FEATURE_NATURAL_WONDER.php"><div id="CONCEPT_TERRAIN_FEATURE_NATURAL_WONDER" class="menuitem">自然奇观</div></a>
+				<a href="CONCEPT_TERRAIN_FEATURE_OASIS.php.htm" tppabs="CONCEPT_TERRAIN_FEATURE_OASIS.php"><div id="CONCEPT_TERRAIN_FEATURE_OASIS" class="menuitem">绿洲</div></a>
+				<a href="CONCEPT_TERRAIN_RIVERS.php.htm" tppabs="CONCEPT_TERRAIN_RIVERS.php"><div id="CONCEPT_TERRAIN_RIVERS" class="menuitem">河流</div></a>
+				<a href="CONCEPT_TERRAIN_RIVERS_TILES.php.htm" tppabs="CONCEPT_TERRAIN_RIVERS_TILES.php"><div id="CONCEPT_TERRAIN_RIVERS_TILES" class="menuitem">河流位置</div></a>
+				<a href="CONCEPT_TERRAIN_RIVERS_YIELD.php.htm" tppabs="CONCEPT_TERRAIN_RIVERS_YIELD.php"><div id="CONCEPT_TERRAIN_RIVERS_YIELD" class="menuitem">城市产出修正</div></a>
+				<a href="CONCEPT_TERRAIN_RIVERS_COMBAT.php.htm" tppabs="CONCEPT_TERRAIN_RIVERS_COMBAT.php"><div id="CONCEPT_TERRAIN_RIVERS_COMBAT" class="menuitem">进攻惩罚</div></a>
+				<a href="CONCEPT_TERRAIN_RIVERS_MOVEMENT.php.htm" tppabs="CONCEPT_TERRAIN_RIVERS_MOVEMENT.php"><div id="CONCEPT_TERRAIN_RIVERS_MOVEMENT" class="menuitem">对移动的影响</div></a>
+			</div></div>
+			<div id="GROUP_HEADER_RESOURCES" class="menugroupcontainer"><a href="javascript:togglediv('HEADER_RESOURCES_CONTENT');"><div id="HEADER_RESOURCES" class="menugroup">资源</div></a><div id="HEADER_RESOURCES_CONTENT">
+				<a href="CONCEPT_RESOURCES.php.htm" tppabs="CONCEPT_RESOURCES.php"><div id="CONCEPT_RESOURCES" class="menuitem">资源</div></a>
+				<a href="CONCEPT_RESOURCES_BONUS.php.htm" tppabs="CONCEPT_RESOURCES_BONUS.php"><div id="CONCEPT_RESOURCES_BONUS" class="menuitem">奖励资源</div></a>
+				<a href="CONCEPT_RESOURCES_LUXURY.php.htm" tppabs="CONCEPT_RESOURCES_LUXURY.php"><div id="CONCEPT_RESOURCES_LUXURY" class="menuitem">奢侈资源</div></a>
+				<a href="CONCEPT_RESOURCES_CITY_REQUESTS.php.htm" tppabs="CONCEPT_RESOURCES_CITY_REQUESTS.php"><div id="CONCEPT_RESOURCES_CITY_REQUESTS" class="menuitem">“我们爱领袖日”</div></a>
+				<a href="CONCEPT_RESOURCES_STRATEGIC.php.htm" tppabs="CONCEPT_RESOURCES_STRATEGIC.php"><div id="CONCEPT_RESOURCES_STRATEGIC" class="menuitem">战略资源</div></a>
+			</div></div>
+			<div id="GROUP_HEADER_IMPROVEMENTS" class="menugroupcontainer"><a href="javascript:togglediv('HEADER_IMPROVEMENTS_CONTENT');"><div id="HEADER_IMPROVEMENTS" class="menugroup">建造区域设施</div></a><div id="HEADER_IMPROVEMENTS_CONTENT">
+				<a href="CONCEPT_WORKERS.php.htm" tppabs="CONCEPT_WORKERS.php"><div id="CONCEPT_WORKERS" class="menuitem">工人与区域设施</div></a>
+				<a href="CONCEPT_WORKERS_CREATING.php.htm" tppabs="CONCEPT_WORKERS_CREATING.php"><div id="CONCEPT_WORKERS_CREATING" class="menuitem">组建工人单位</div></a>
+				<a href="CONCEPT_WORKERS_COMBAT.php.htm" tppabs="CONCEPT_WORKERS_COMBAT.php"><div id="CONCEPT_WORKERS_COMBAT" class="menuitem">工人的战斗</div></a>
+				<a href="CONCEPT_WORKERS_ACTION_PANEL.php.htm" tppabs="CONCEPT_WORKERS_ACTION_PANEL.php"><div id="CONCEPT_WORKERS_ACTION_PANEL" class="menuitem">工人行动面板</div></a>
+				<a href="CONCEPT_WORKERS_CLEARINGLAND.php.htm" tppabs="CONCEPT_WORKERS_CLEARINGLAND.php"><div id="CONCEPT_WORKERS_CLEARINGLAND" class="menuitem">清除地貌</div></a>
+				<a href="CONCEPT_WORKERS_CLEARINGLAND_TIME.php.htm" tppabs="CONCEPT_WORKERS_CLEARINGLAND_TIME.php"><div id="CONCEPT_WORKERS_CLEARINGLAND_TIME" class="menuitem">清理地貌的时间</div></a>
+				<a href="CONCEPT_WORKERS_ROADS.php.htm" tppabs="CONCEPT_WORKERS_ROADS.php"><div id="CONCEPT_WORKERS_ROADS" class="menuitem">建造道路</div></a>
+				<a href="CONCEPT_WORKERS_ROADS_TIME.php.htm" tppabs="CONCEPT_WORKERS_ROADS_TIME.php"><div id="CONCEPT_WORKERS_ROADS_TIME" class="menuitem">道路建造时间</div></a>
+				<a href="CONCEPT_WORKERS_ROADS_TRADE_ROUTES.php.htm" tppabs="CONCEPT_WORKERS_ROADS_TRADE_ROUTES.php"><div id="CONCEPT_WORKERS_ROADS_TRADE_ROUTES" class="menuitem">道路与城市连接</div></a>
+				<a href="CONCEPT_WORKERS_IMPROVEMENTS.php.htm" tppabs="CONCEPT_WORKERS_IMPROVEMENTS.php"><div id="CONCEPT_WORKERS_IMPROVEMENTS" class="menuitem">建造地面设施</div></a>
+				<a href="CONCEPT_WORKERS_IMPROVEMENTS_WHERE.php.htm" tppabs="CONCEPT_WORKERS_IMPROVEMENTS_WHERE.php"><div id="CONCEPT_WORKERS_IMPROVEMENTS_WHERE" class="menuitem">设施建在哪里</div></a>
+				<a href="CONCEPT_WORKERS_IMPROVEMENTS_TIME.php.htm" tppabs="CONCEPT_WORKERS_IMPROVEMENTS_TIME.php"><div id="CONCEPT_WORKERS_IMPROVEMENTS_TIME" class="menuitem">修建时间</div></a>
+				<a href="CONCEPT_WORKERS_IMPROVEMENTS_TIME_LEFT.php.htm" tppabs="CONCEPT_WORKERS_IMPROVEMENTS_TIME_LEFT.php"><div id="CONCEPT_WORKERS_IMPROVEMENTS_TIME_LEFT" class="menuitem">还有多少时间？</div></a>
+				<a href="CONCEPT_WORKERS_IMPROVEMENTS_LEAVING.php.htm" tppabs="CONCEPT_WORKERS_IMPROVEMENTS_LEAVING.php"><div id="CONCEPT_WORKERS_IMPROVEMENTS_LEAVING" class="menuitem">停工与恢复</div></a>
+				<a href="CONCEPT_WORKERS_IMPROVEMENTS_FARM.php.htm" tppabs="CONCEPT_WORKERS_IMPROVEMENTS_FARM.php"><div id="CONCEPT_WORKERS_IMPROVEMENTS_FARM" class="menuitem">修建农场</div></a>
+				<a href="CONCEPT_WORKERS_IMPROVEMENTS_MINE.php.htm" tppabs="CONCEPT_WORKERS_IMPROVEMENTS_MINE.php"><div id="CONCEPT_WORKERS_IMPROVEMENTS_MINE" class="menuitem">矿井设施</div></a>
+				<a href="CONCEPT_WORKERS_IMPROVEMENTS_FORT.php.htm" tppabs="CONCEPT_WORKERS_IMPROVEMENTS_FORT.php"><div id="CONCEPT_WORKERS_IMPROVEMENTS_FORT" class="menuitem">特殊的堡垒设施</div></a>
+				<a href="CONCEPT_WORKERS_WORKBOATS.php.htm" tppabs="CONCEPT_WORKERS_WORKBOATS.php"><div id="CONCEPT_WORKERS_WORKBOATS" class="menuitem">工船</div></a>
+				<a href="CONCEPT_WORKERS_PILLAGE.php.htm" tppabs="CONCEPT_WORKERS_PILLAGE.php"><div id="CONCEPT_WORKERS_PILLAGE" class="menuitem">劫掠道路和设施</div></a>
+				<a href="CONCEPT_WORKERS_REPAIR.php.htm" tppabs="CONCEPT_WORKERS_REPAIR.php"><div id="CONCEPT_WORKERS_REPAIR" class="menuitem">修复道路和设施</div></a>
+				<a href="CONCEPT_WORKERS_REPAIR_WATER.php.htm" tppabs="CONCEPT_WORKERS_REPAIR_WATER.php"><div id="CONCEPT_WORKERS_REPAIR_WATER" class="menuitem">渔船与海上平台</div></a>
+				<a href="CONCEPT_WORKERS_GREAT_PEOPLE.php.htm" tppabs="CONCEPT_WORKERS_GREAT_PEOPLE.php"><div id="CONCEPT_WORKERS_GREAT_PEOPLE" class="menuitem">伟人建造的区域设施</div></a>
+			</div></div>
+			<div id="GROUP_HEADER_CITYGROWTH" class="menugroupcontainer"><a href="javascript:togglediv('HEADER_CITYGROWTH_CONTENT');"><div id="HEADER_CITYGROWTH" class="menugroup">食物与城市成长</div></a><div id="HEADER_CITYGROWTH_CONTENT">
+				<a href="CONCEPT_FOOD_AND_CITY_GROWTH.php.htm" tppabs="CONCEPT_FOOD_AND_CITY_GROWTH.php"><div id="CONCEPT_FOOD_AND_CITY_GROWTH" class="menuitem">食物与城市成长</div></a>
+				<a href="CONCEPT_FOOD_AND_CITY_GROWTH_MECHANICS.php.htm" tppabs="CONCEPT_FOOD_AND_CITY_GROWTH_MECHANICS.php"><div id="CONCEPT_FOOD_AND_CITY_GROWTH_MECHANICS" class="menuitem">城市与食物</div></a>
+				<a href="CONCEPT_FOOD_AND_CITY_GROWTH_GETTING_MORE_FOOD.php.htm" tppabs="CONCEPT_FOOD_AND_CITY_GROWTH_GETTING_MORE_FOOD.php"><div id="CONCEPT_FOOD_AND_CITY_GROWTH_GETTING_MORE_FOOD" class="menuitem">获得更多食物</div></a>
+				<a href="CONCEPT_FOOD_AND_CITY_GROWTH_BEST_FOOD_TILES.php.htm" tppabs="CONCEPT_FOOD_AND_CITY_GROWTH_BEST_FOOD_TILES.php"><div id="CONCEPT_FOOD_AND_CITY_GROWTH_BEST_FOOD_TILES" class="menuitem">最好的食物区块</div></a>
+				<a href="CONCEPT_FOOD_AND_CITY_GROWTH_BONUS.php.htm" tppabs="CONCEPT_FOOD_AND_CITY_GROWTH_BONUS.php"><div id="CONCEPT_FOOD_AND_CITY_GROWTH_BONUS" class="menuitem">奖励资源</div></a>
+				<a href="CONCEPT_FOOD_AND_CITY_GROWTH_OASIS.php.htm" tppabs="CONCEPT_FOOD_AND_CITY_GROWTH_OASIS.php"><div id="CONCEPT_FOOD_AND_CITY_GROWTH_OASIS" class="menuitem">绿洲</div></a>
+				<a href="CONCEPT_FOOD_AND_CITY_GROWTH_FLOOD_PLAINS.php.htm" tppabs="CONCEPT_FOOD_AND_CITY_GROWTH_FLOOD_PLAINS.php"><div id="CONCEPT_FOOD_AND_CITY_GROWTH_FLOOD_PLAINS" class="menuitem">冲积平原</div></a>
+				<a href="CONCEPT_FOOD_AND_CITY_GROWTH_GRASSLAND_AND_JUNGLE.php.htm" tppabs="CONCEPT_FOOD_AND_CITY_GROWTH_GRASSLAND_AND_JUNGLE.php"><div id="CONCEPT_FOOD_AND_CITY_GROWTH_GRASSLAND_AND_JUNGLE" class="menuitem">草原和丛林</div></a>
+				<a href="CONCEPT_FOOD_AND_CITY_GROWTH_IMPROVEMENTS.php.htm" tppabs="CONCEPT_FOOD_AND_CITY_GROWTH_IMPROVEMENTS.php"><div id="CONCEPT_FOOD_AND_CITY_GROWTH_IMPROVEMENTS" class="menuitem">区域设施</div></a>
+				<a href="CONCEPT_FOOD_AND_CITY_GROWTH_BUILDINGS_WONDERS_SOCIAL_POLICIES.php.htm" tppabs="CONCEPT_FOOD_AND_CITY_GROWTH_BUILDINGS_WONDERS_SOCIAL_POLICIES.php"><div id="CONCEPT_FOOD_AND_CITY_GROWTH_BUILDINGS_WONDERS_SOCIAL_POLICIES" class="menuitem">建筑，奇观和政策</div></a>
+				<a href="CONCEPT_FOOD_AND_CITY_GROWTH_MARITIME_CITY_STATES.php.htm" tppabs="CONCEPT_FOOD_AND_CITY_GROWTH_MARITIME_CITY_STATES.php"><div id="CONCEPT_FOOD_AND_CITY_GROWTH_MARITIME_CITY_STATES" class="menuitem">航海型城邦</div></a>
+				<a href="CONCEPT_FOOD_AND_CITY_GROWTH_WE_LOVE_THE_KING_DAY.php.htm" tppabs="CONCEPT_FOOD_AND_CITY_GROWTH_WE_LOVE_THE_KING_DAY.php"><div id="CONCEPT_FOOD_AND_CITY_GROWTH_WE_LOVE_THE_KING_DAY" class="menuitem">我们爱领袖日</div></a>
+				<a href="CONCEPT_FOOD_AND_CITY_GROWTH_UNHAPPINESS.php.htm" tppabs="CONCEPT_FOOD_AND_CITY_GROWTH_UNHAPPINESS.php"><div id="CONCEPT_FOOD_AND_CITY_GROWTH_UNHAPPINESS" class="menuitem">城市不满</div></a>
+				<a href="CONCEPT_FOOD_AND_CITY_GROWTH_GROWTH.php.htm" tppabs="CONCEPT_FOOD_AND_CITY_GROWTH_GROWTH.php"><div id="CONCEPT_FOOD_AND_CITY_GROWTH_GROWTH" class="menuitem">城市成长</div></a>
+				<a href="CONCEPT_FOOD_AND_CITY_GROWTH_GROWTH_BUCKET.php.htm" tppabs="CONCEPT_FOOD_AND_CITY_GROWTH_GROWTH_BUCKET.php"><div id="CONCEPT_FOOD_AND_CITY_GROWTH_GROWTH_BUCKET" class="menuitem">城市成长槽</div></a>
+				<a href="CONCEPT_FOOD_AND_CITY_GROWTH_SETTLERS.php.htm" tppabs="CONCEPT_FOOD_AND_CITY_GROWTH_SETTLERS.php"><div id="CONCEPT_FOOD_AND_CITY_GROWTH_SETTLERS" class="menuitem">移民和食物生产</div></a>
+			</div></div>
+			<div id="GROUP_HEADER_TECHNOLOGY" class="menugroupcontainer"><a href="javascript:togglediv('HEADER_TECHNOLOGY_CONTENT');"><div id="HEADER_TECHNOLOGY" class="menugroup">科技</div></a><div id="HEADER_TECHNOLOGY_CONTENT">
+				<a href="CONCEPT_TECHNOLOGY.php.htm" tppabs="CONCEPT_TECHNOLOGY.php"><div id="CONCEPT_TECHNOLOGY" class="menuitem">科技</div></a>
+				<a href="CONCEPT_TECHNOLOGY_TECH_AND_BEAKERS.php.htm" tppabs="CONCEPT_TECHNOLOGY_TECH_AND_BEAKERS.php"><div id="CONCEPT_TECHNOLOGY_TECH_AND_BEAKERS" class="menuitem">科技与烧瓶</div></a>
+				<a href="CONCEPT_TECHNOLOGY_BEAKERS.php.htm" tppabs="CONCEPT_TECHNOLOGY_BEAKERS.php"><div id="CONCEPT_TECHNOLOGY_BEAKERS" class="menuitem">烧瓶从何而来？</div></a>
+				<a href="CONCEPT_TECHNOLOGY_SPEEDING_UP_RESEARCH.php.htm" tppabs="CONCEPT_TECHNOLOGY_SPEEDING_UP_RESEARCH.php"><div id="CONCEPT_TECHNOLOGY_SPEEDING_UP_RESEARCH" class="menuitem">增加烧瓶</div></a>
+				<a href="CONCEPT_TECHNOLOGY_ANCIENT_RUINS.php.htm" tppabs="CONCEPT_TECHNOLOGY_ANCIENT_RUINS.php"><div id="CONCEPT_TECHNOLOGY_ANCIENT_RUINS" class="menuitem">远古遗迹</div></a>
+				<a href="CONCEPT_TECHNOLOGY_TRADE.php.htm" tppabs="CONCEPT_TECHNOLOGY_TRADE.php"><div id="CONCEPT_TECHNOLOGY_TRADE" class="menuitem">贸易</div></a>
+				<a href="CONCEPT_TECHNOLOGY_BUILDINGS.php.htm" tppabs="CONCEPT_TECHNOLOGY_BUILDINGS.php"><div id="CONCEPT_TECHNOLOGY_BUILDINGS" class="menuitem">建筑</div></a>
+				<a href="CONCEPT_TECHNOLOGY_WONDERS.php.htm" tppabs="CONCEPT_TECHNOLOGY_WONDERS.php"><div id="CONCEPT_TECHNOLOGY_WONDERS" class="menuitem">奇观</div></a>
+				<a href="CONCEPT_TECHNOLOGY_GREAT_SCIENTIST.php.htm" tppabs="CONCEPT_TECHNOLOGY_GREAT_SCIENTIST.php"><div id="CONCEPT_TECHNOLOGY_GREAT_SCIENTIST" class="menuitem">大科学家</div></a>
+				<a href="CONCEPT_TECHNOLOGY_SOCIAL_POLICIES.php.htm" tppabs="CONCEPT_TECHNOLOGY_SOCIAL_POLICIES.php"><div id="CONCEPT_TECHNOLOGY_SOCIAL_POLICIES" class="menuitem">理性政策分支</div></a>
+				<a href="CONCEPT_TECHNOLOGY_CHOOSING_TECH.php.htm" tppabs="CONCEPT_TECHNOLOGY_CHOOSING_TECH.php"><div id="CONCEPT_TECHNOLOGY_CHOOSING_TECH" class="menuitem">选择一项科技进行研究</div></a>
+				<a href="CONCEPT_TECHNOLOGY_CHOOSE_RESEARCH_MENU.php.htm" tppabs="CONCEPT_TECHNOLOGY_CHOOSE_RESEARCH_MENU.php"><div id="CONCEPT_TECHNOLOGY_CHOOSE_RESEARCH_MENU" class="menuitem">选择科研菜单</div></a>
+				<a href="CONCEPT_TECHNOLOGY_CHANGE_RESEARCH.php.htm" tppabs="CONCEPT_TECHNOLOGY_CHANGE_RESEARCH.php"><div id="CONCEPT_TECHNOLOGY_CHANGE_RESEARCH" class="menuitem">改变科研项目</div></a>
+				<a href="CONCEPT_TECHNOLOGY_AVAILABLE.php.htm" tppabs="CONCEPT_TECHNOLOGY_AVAILABLE.php"><div id="CONCEPT_TECHNOLOGY_AVAILABLE" class="menuitem">哪些科技可以被研究</div></a>
+				<a href="CONCEPT_TECHNOLOGY_TECH_TREE.php.htm" tppabs="CONCEPT_TECHNOLOGY_TECH_TREE.php"><div id="CONCEPT_TECHNOLOGY_TECH_TREE" class="menuitem">强大的科技树</div></a>
+			</div></div>
+			<div id="GROUP_HEADER_CULTURE" class="menugroupcontainer"><a href="javascript:togglediv('HEADER_CULTURE_CONTENT');"><div id="HEADER_CULTURE" class="menugroup">文化</div></a><div id="HEADER_CULTURE_CONTENT">
+				<a href="CONCEPT_CULTURE.php.htm" tppabs="CONCEPT_CULTURE.php"><div id="CONCEPT_CULTURE" class="menuitem">文化</div></a>
+				<a href="CONCEPT_CULTURE_GAINING.php.htm" tppabs="CONCEPT_CULTURE_GAINING.php"><div id="CONCEPT_CULTURE_GAINING" class="menuitem">获得文化</div></a>
+				<a href="CONCEPT_CULTURE_EXPANDING_TERRITORY.php.htm" tppabs="CONCEPT_CULTURE_EXPANDING_TERRITORY.php"><div id="CONCEPT_CULTURE_EXPANDING_TERRITORY" class="menuitem">拓展领土</div></a>
+				<a href="CONCEPT_CULTURE_ACQUIRING_SOCIAL_POLICY.php.htm" tppabs="CONCEPT_CULTURE_ACQUIRING_SOCIAL_POLICY.php"><div id="CONCEPT_CULTURE_ACQUIRING_SOCIAL_POLICY" class="menuitem">获取社会政策</div></a>
+				<a href="CONCEPT_CULTURE_VICTORY.php.htm" tppabs="CONCEPT_CULTURE_VICTORY.php"><div id="CONCEPT_CULTURE_VICTORY" class="menuitem">文化胜利</div></a>
+				<a href="CONCEPT_CULTURE_TOURISM.php.htm" tppabs="CONCEPT_CULTURE_TOURISM.php"><div id="CONCEPT_CULTURE_TOURISM" class="menuitem">魅力</div></a>
+				<a href="CONCEPT_CULTURE_TOURISM_AND_CULTURE.php.htm" tppabs="CONCEPT_CULTURE_TOURISM_AND_CULTURE.php"><div id="CONCEPT_CULTURE_TOURISM_AND_CULTURE" class="menuitem">魅力与文化胜利</div></a>
+				<a href="CONCEPT_CULTURE_TOURISM_BENEFITS.php.htm" tppabs="CONCEPT_CULTURE_TOURISM_BENEFITS.php"><div id="CONCEPT_CULTURE_TOURISM_BENEFITS" class="menuitem">魅力的好处</div></a>
+				<a href="CONCEPT_CULTURE_GREAT_WORKS.php.htm" tppabs="CONCEPT_CULTURE_GREAT_WORKS.php"><div id="CONCEPT_CULTURE_GREAT_WORKS" class="menuitem">杰作</div></a>
+				<a href="CONCEPT_CULTURE_GREAT_WORK_ART.php.htm" tppabs="CONCEPT_CULTURE_GREAT_WORK_ART.php"><div id="CONCEPT_CULTURE_GREAT_WORK_ART" class="menuitem">美术杰作</div></a>
+				<a href="CONCEPT_CULTURE_GREAT_WORK_WRITING.php.htm" tppabs="CONCEPT_CULTURE_GREAT_WORK_WRITING.php"><div id="CONCEPT_CULTURE_GREAT_WORK_WRITING" class="menuitem">文学杰作</div></a>
+				<a href="CONCEPT_CULTURE_GREAT_WORK_MUSIC.php.htm" tppabs="CONCEPT_CULTURE_GREAT_WORK_MUSIC.php"><div id="CONCEPT_CULTURE_GREAT_WORK_MUSIC" class="menuitem">音乐杰作</div></a>
+				<a href="CONCEPT_CULTURE_MANAGE_GREAT_WORKS.php.htm" tppabs="CONCEPT_CULTURE_MANAGE_GREAT_WORKS.php"><div id="CONCEPT_CULTURE_MANAGE_GREAT_WORKS" class="menuitem">管理杰作</div></a>
+				<a href="CONCEPT_CULTURE_ARCH.php.htm" tppabs="CONCEPT_CULTURE_ARCH.php"><div id="CONCEPT_CULTURE_ARCH" class="menuitem">考古学</div></a>
+				<a href="CONCEPT_CULTURE_ANTIQUITY.php.htm" tppabs="CONCEPT_CULTURE_ANTIQUITY.php"><div id="CONCEPT_CULTURE_ANTIQUITY" class="menuitem">历史遗址</div></a>
+				<a href="CONCEPT_CULTURE_ARTIFACTS.php.htm" tppabs="CONCEPT_CULTURE_ARTIFACTS.php"><div id="CONCEPT_CULTURE_ARTIFACTS" class="menuitem">文物</div></a>
+			</div></div>
+			<div id="GROUP_HEADER_DIPLOMACY" class="menugroupcontainer"><a href="javascript:togglediv('HEADER_DIPLOMACY_CONTENT');"><div id="HEADER_DIPLOMACY" class="menugroup">外交</div></a><div id="HEADER_DIPLOMACY_CONTENT">
+				<a href="CONCEPT_DIPLOMACY.php.htm" tppabs="CONCEPT_DIPLOMACY.php"><div id="CONCEPT_DIPLOMACY" class="menuitem">外交</div></a>
+				<a href="CONCEPT_DIPLOMACY_WHO_CAN_CONDUCT.php.htm" tppabs="CONCEPT_DIPLOMACY_WHO_CAN_CONDUCT.php"><div id="CONCEPT_DIPLOMACY_WHO_CAN_CONDUCT" class="menuitem">谁能开展外交活动</div></a>
+				<a href="CONCEPT_DIPLOMACY_INITIATING.php.htm" tppabs="CONCEPT_DIPLOMACY_INITIATING.php"><div id="CONCEPT_DIPLOMACY_INITIATING" class="menuitem">开展外交</div></a>
+				<a href="CONCEPT_DIPLOMACY_WITH_CIVS.php.htm" tppabs="CONCEPT_DIPLOMACY_WITH_CIVS.php"><div id="CONCEPT_DIPLOMACY_WITH_CIVS" class="menuitem">与文明间的外交</div></a>
+				<a href="CONCEPT_DIPLOMACY_DECLARE_WAR.php.htm" tppabs="CONCEPT_DIPLOMACY_DECLARE_WAR.php"><div id="CONCEPT_DIPLOMACY_DECLARE_WAR" class="menuitem">宣战</div></a>
+				<a href="CONCEPT_DIPLOMACY_PEACE.php.htm" tppabs="CONCEPT_DIPLOMACY_PEACE.php"><div id="CONCEPT_DIPLOMACY_PEACE" class="menuitem">和谈</div></a>
+				<a href="CONCEPT_DIPLOMACY_TRADE.php.htm" tppabs="CONCEPT_DIPLOMACY_TRADE.php"><div id="CONCEPT_DIPLOMACY_TRADE" class="menuitem">交易</div></a>
+				<a href="CONCEPT_DIPLOMACY_DEMAND.php.htm" tppabs="CONCEPT_DIPLOMACY_DEMAND.php"><div id="CONCEPT_DIPLOMACY_DEMAND" class="menuitem">索取</div></a>
+				<a href="CONCEPT_DIPLOMACY_DISCUSS.php.htm" tppabs="CONCEPT_DIPLOMACY_DISCUSS.php"><div id="CONCEPT_DIPLOMACY_DISCUSS" class="menuitem">讨论</div></a>
+				<a href="CONCEPT_DIPLOMACY_DENOUNCE.php.htm" tppabs="CONCEPT_DIPLOMACY_DENOUNCE.php"><div id="CONCEPT_DIPLOMACY_DENOUNCE" class="menuitem">公开谴责</div></a>
+				<a href="CONCEPT_DIPLOMACY_FRIENDSHIP.php.htm" tppabs="CONCEPT_DIPLOMACY_FRIENDSHIP.php"><div id="CONCEPT_DIPLOMACY_FRIENDSHIP" class="menuitem">友谊声明</div></a>
+				<a href="CONCEPT_DIPLOMACY_EXIT.php.htm" tppabs="CONCEPT_DIPLOMACY_EXIT.php"><div id="CONCEPT_DIPLOMACY_EXIT" class="menuitem">退出</div></a>
+				<a href="CONCEPT_DIPLOMACY_TRADE_SCREEN.php.htm" tppabs="CONCEPT_DIPLOMACY_TRADE_SCREEN.php"><div id="CONCEPT_DIPLOMACY_TRADE_SCREEN" class="menuitem">交易界面</div></a>
+				<a href="CONCEPT_DIPLOMACY_OPEN_BORDERS.php.htm" tppabs="CONCEPT_DIPLOMACY_OPEN_BORDERS.php"><div id="CONCEPT_DIPLOMACY_OPEN_BORDERS" class="menuitem">开放边境协议</div></a>
+				<a href="CONCEPT_DIPLOMACY_DEFENSIVE_PACT.php.htm" tppabs="CONCEPT_DIPLOMACY_DEFENSIVE_PACT.php"><div id="CONCEPT_DIPLOMACY_DEFENSIVE_PACT" class="menuitem">防御条约</div></a>
+				<a href="CONCEPT_DIPLOMACY_RESEARCH_AGREEMENT.php.htm" tppabs="CONCEPT_DIPLOMACY_RESEARCH_AGREEMENT.php"><div id="CONCEPT_DIPLOMACY_RESEARCH_AGREEMENT" class="menuitem">研究协议</div></a>
+				<a href="CONCEPT_DIPLOMACY_TRADE_CITIES.php.htm" tppabs="CONCEPT_DIPLOMACY_TRADE_CITIES.php"><div id="CONCEPT_DIPLOMACY_TRADE_CITIES" class="menuitem">交易城市</div></a>
+				<a href="CONCEPT_DIPLOMACY_OTHER_PLAYERS.php.htm" tppabs="CONCEPT_DIPLOMACY_OTHER_PLAYERS.php"><div id="CONCEPT_DIPLOMACY_OTHER_PLAYERS" class="menuitem">其他文明</div></a>
+				<a href="CONCEPT_DIPLOMACY_RESOURCES.php.htm" tppabs="CONCEPT_DIPLOMACY_RESOURCES.php"><div id="CONCEPT_DIPLOMACY_RESOURCES" class="menuitem">资源与外交</div></a>
+				<a href="CONCEPT_DIPLOMACY_CITY_STATE.php.htm" tppabs="CONCEPT_DIPLOMACY_CITY_STATE.php"><div id="CONCEPT_DIPLOMACY_CITY_STATE" class="menuitem">与城邦的谈判</div></a>
+				<a href="CONCEPT_DIPLOMACY_DECLARING_WAR.php.htm" tppabs="CONCEPT_DIPLOMACY_DECLARING_WAR.php"><div id="CONCEPT_DIPLOMACY_DECLARING_WAR" class="menuitem">宣战</div></a>
+				<a href="CONCEPT_DIPLOMACY_NEGOTIATE_PEACE.php.htm" tppabs="CONCEPT_DIPLOMACY_NEGOTIATE_PEACE.php"><div id="CONCEPT_DIPLOMACY_NEGOTIATE_PEACE" class="menuitem">和平谈判</div></a>
+				<a href="CONCEPT_DIPLOMACY_EMBASSY.php.htm" tppabs="CONCEPT_DIPLOMACY_EMBASSY.php"><div id="CONCEPT_DIPLOMACY_EMBASSY" class="menuitem">建立大使馆</div></a>
+			</div></div>
+			<div id="GROUP_HEADER_HAPPINESS" class="menugroupcontainer"><a href="javascript:togglediv('HEADER_HAPPINESS_CONTENT');"><div id="HEADER_HAPPINESS" class="menugroup">快乐</div></a><div id="HEADER_HAPPINESS_CONTENT">
+				<a href="CONCEPT_HAPPINESS.php.htm" tppabs="CONCEPT_HAPPINESS.php"><div id="CONCEPT_HAPPINESS" class="menuitem">快乐</div></a>
+				<a href="CONCEPT_HAPPINESS_STARTING.php.htm" tppabs="CONCEPT_HAPPINESS_STARTING.php"><div id="CONCEPT_HAPPINESS_STARTING" class="menuitem">游戏开始的快乐度</div></a>
+				<a href="CONCEPT_HAPPINESS_CAUSES_UNHAPPINESS.php.htm" tppabs="CONCEPT_HAPPINESS_CAUSES_UNHAPPINESS.php"><div id="CONCEPT_HAPPINESS_CAUSES_UNHAPPINESS" class="menuitem">不满是怎样来的？</div></a>
+				<a href="CONCEPT_HAPPINESS_CAUSES_HAPPINESS.php.htm" tppabs="CONCEPT_HAPPINESS_CAUSES_HAPPINESS.php"><div id="CONCEPT_HAPPINESS_CAUSES_HAPPINESS" class="menuitem">快乐是怎么来的？</div></a>
+				<a href="CONCEPT_HAPPINESS_HAPPINESS_LEVELS.php.htm" tppabs="CONCEPT_HAPPINESS_HAPPINESS_LEVELS.php"><div id="CONCEPT_HAPPINESS_HAPPINESS_LEVELS" class="menuitem">不满的级别</div></a>
+				<a href="CONCEPT_HAPPINESS_UNHAHPPY.php.htm" tppabs="CONCEPT_HAPPINESS_UNHAHPPY.php"><div id="CONCEPT_HAPPINESS_UNHAHPPY" class="menuitem">不满</div></a>
+				<a href="CONCEPT_HAPPINESS_VERY_UNHAPPY.php.htm" tppabs="CONCEPT_HAPPINESS_VERY_UNHAPPY.php"><div id="CONCEPT_HAPPINESS_VERY_UNHAPPY" class="menuitem">骚乱</div></a>
+				<a href="CONCEPT_HAPPINESS_REVOLT.php.htm" tppabs="CONCEPT_HAPPINESS_REVOLT.php"><div id="CONCEPT_HAPPINESS_REVOLT" class="menuitem">叛乱</div></a>
+			</div></div>
+			<div id="GROUP_HEADER_FOW" class="menugroupcontainer"><a href="javascript:togglediv('HEADER_FOW_CONTENT');"><div id="HEADER_FOW" class="menugroup">战争迷雾</div></a><div id="HEADER_FOW_CONTENT">
+				<a href="CONCEPT_FOG_OF_WAR.php.htm" tppabs="CONCEPT_FOG_OF_WAR.php"><div id="CONCEPT_FOG_OF_WAR" class="menuitem">战争迷雾</div></a>
+				<a href="CONCEPT_FOG_OF_WAR_THREE_STATES.php.htm" tppabs="CONCEPT_FOG_OF_WAR_THREE_STATES.php"><div id="CONCEPT_FOG_OF_WAR_THREE_STATES" class="menuitem">三种视野状态</div></a>
+				<a href="CONCEPT_FOG_OF_WAR_STATE_VISIBLE.php.htm" tppabs="CONCEPT_FOG_OF_WAR_STATE_VISIBLE.php"><div id="CONCEPT_FOG_OF_WAR_STATE_VISIBLE" class="menuitem">可见的</div></a>
+				<a href="CONCEPT_FOG_OF_WAR_STATE_REVEALED.php.htm" tppabs="CONCEPT_FOG_OF_WAR_STATE_REVEALED.php"><div id="CONCEPT_FOG_OF_WAR_STATE_REVEALED" class="menuitem">显露区块</div></a>
+				<a href="CONCEPT_FOG_OF_WAR_STATE_FOG_OF_WAR.php.htm" tppabs="CONCEPT_FOG_OF_WAR_STATE_FOG_OF_WAR.php"><div id="CONCEPT_FOG_OF_WAR_STATE_FOG_OF_WAR" class="menuitem">区块上的战争迷雾</div></a>
+				<a href="CONCEPT_FOG_OF_WAR_SEEN.php.htm" tppabs="CONCEPT_FOG_OF_WAR_SEEN.php"><div id="CONCEPT_FOG_OF_WAR_SEEN" class="menuitem">什么能看见</div></a>
+				<a href="CONCEPT_FOG_OF_WAR_OBSCURING_TERRAIN.php.htm" tppabs="CONCEPT_FOG_OF_WAR_OBSCURING_TERRAIN.php"><div id="CONCEPT_FOG_OF_WAR_OBSCURING_TERRAIN" class="menuitem">阻视地形</div></a>
+				<a href="CONCEPT_FOG_OF_WAR_INDIRECT_FIRE.php.htm" tppabs="CONCEPT_FOG_OF_WAR_INDIRECT_FIRE.php"><div id="CONCEPT_FOG_OF_WAR_INDIRECT_FIRE" class="menuitem">间接火力</div></a>
+			</div></div>
+			<div id="GROUP_HEADER_POLICIES" class="menugroupcontainer"><a href="javascript:togglediv('HEADER_POLICIES_CONTENT');"><div id="HEADER_POLICIES" class="menugroup">社会政策</div></a><div id="HEADER_POLICIES_CONTENT">
+				<a href="CONCEPT_SOCIAL_POLICY.php.htm" tppabs="CONCEPT_SOCIAL_POLICY.php"><div id="CONCEPT_SOCIAL_POLICY" class="menuitem">社会政策</div></a>
+				<a href="CONCEPT_SOCIAL_POLICY_GAINING.php.htm" tppabs="CONCEPT_SOCIAL_POLICY_GAINING.php"><div id="CONCEPT_SOCIAL_POLICY_GAINING" class="menuitem">获得社会政策</div></a>
+				<a href="CONCEPT_SOCIAL_POLICY_BRANCHES.php.htm" tppabs="CONCEPT_SOCIAL_POLICY_BRANCHES.php"><div id="CONCEPT_SOCIAL_POLICY_BRANCHES" class="menuitem">社会政策分支</div></a>
+				<a href="CONCEPT_SOCIAL_POLICY_BRANCH_TRADITION.php.htm" tppabs="CONCEPT_SOCIAL_POLICY_BRANCH_TRADITION.php"><div id="CONCEPT_SOCIAL_POLICY_BRANCH_TRADITION" class="menuitem">传统政策</div></a>
+				<a href="CONCEPT_SOCIAL_POLICY_BRANCH_LIBERTY.php.htm" tppabs="CONCEPT_SOCIAL_POLICY_BRANCH_LIBERTY.php"><div id="CONCEPT_SOCIAL_POLICY_BRANCH_LIBERTY" class="menuitem">自主政策</div></a>
+				<a href="CONCEPT_SOCIAL_POLICY_BRANCH_HONOR.php.htm" tppabs="CONCEPT_SOCIAL_POLICY_BRANCH_HONOR.php"><div id="CONCEPT_SOCIAL_POLICY_BRANCH_HONOR" class="menuitem">荣誉政策</div></a>
+				<a href="CONCEPT_SOCIAL_POLICY_BRANCH_PIETY.php.htm" tppabs="CONCEPT_SOCIAL_POLICY_BRANCH_PIETY.php"><div id="CONCEPT_SOCIAL_POLICY_BRANCH_PIETY" class="menuitem">虔信政策</div></a>
+				<a href="CONCEPT_SOCIAL_POLICY_BRANCH_PATRONAGE.php.htm" tppabs="CONCEPT_SOCIAL_POLICY_BRANCH_PATRONAGE.php"><div id="CONCEPT_SOCIAL_POLICY_BRANCH_PATRONAGE" class="menuitem">赞助政策</div></a>
+				<a href="CONCEPT_SOCIAL_POLICY_BRANCH_COMMERCE.php.htm" tppabs="CONCEPT_SOCIAL_POLICY_BRANCH_COMMERCE.php"><div id="CONCEPT_SOCIAL_POLICY_BRANCH_COMMERCE" class="menuitem">商业政策</div></a>
+				<a href="CONCEPT_SOCIAL_POLICY_BRANCH_RATIONALISM.php.htm" tppabs="CONCEPT_SOCIAL_POLICY_BRANCH_RATIONALISM.php"><div id="CONCEPT_SOCIAL_POLICY_BRANCH_RATIONALISM" class="menuitem">理性政策</div></a>
+				<a href="CONCEPT_SOCIAL_POLICY_BRANCH_FREEDOM.php.htm" tppabs="CONCEPT_SOCIAL_POLICY_BRANCH_FREEDOM.php"><div id="CONCEPT_SOCIAL_POLICY_BRANCH_FREEDOM" class="menuitem">自由政策</div></a>
+				<a href="CONCEPT_SOCIAL_POLICY_BRANCH_ORDER.php.htm" tppabs="CONCEPT_SOCIAL_POLICY_BRANCH_ORDER.php"><div id="CONCEPT_SOCIAL_POLICY_BRANCH_ORDER" class="menuitem">秩序政策</div></a>
+				<a href="CONCEPT_SOCIAL_POLICY_BRANCH_AUTOCRACY.php.htm" tppabs="CONCEPT_SOCIAL_POLICY_BRANCH_AUTOCRACY.php"><div id="CONCEPT_SOCIAL_POLICY_BRANCH_AUTOCRACY" class="menuitem">独裁政策</div></a>
+				<a href="CONCEPT_SOCIAL_POLICY_VICTORY.php.htm" tppabs="CONCEPT_SOCIAL_POLICY_VICTORY.php"><div id="CONCEPT_SOCIAL_POLICY_VICTORY" class="menuitem">文化胜利</div></a>
+				<a href="CONCEPT_SOCIAL_POLICY_BRANCH_AESTHETICS.php.htm" tppabs="CONCEPT_SOCIAL_POLICY_BRANCH_AESTHETICS.php"><div id="CONCEPT_SOCIAL_POLICY_BRANCH_AESTHETICS" class="menuitem">美学政策</div></a>
+				<a href="CONCEPT_SOCIAL_POLICY_BRANCH_EXPLORATION.php.htm" tppabs="CONCEPT_SOCIAL_POLICY_BRANCH_EXPLORATION.php"><div id="CONCEPT_SOCIAL_POLICY_BRANCH_EXPLORATION" class="menuitem">探索政策</div></a>
+				<a href="CONCEPT_SOCIAL_POLICY_BRANCH_IDEOLOGY.php.htm" tppabs="CONCEPT_SOCIAL_POLICY_BRANCH_IDEOLOGY.php"><div id="CONCEPT_SOCIAL_POLICY_BRANCH_IDEOLOGY" class="menuitem">意识形态</div></a>
+			</div></div>
+			<div id="GROUP_HEADER_GOLD" class="menugroupcontainer"><a href="javascript:togglediv('HEADER_GOLD_CONTENT');"><div id="HEADER_GOLD" class="menugroup">金钱与经济</div></a><div id="HEADER_GOLD_CONTENT">
+				<a href="CONCEPT_GOLD.php.htm" tppabs="CONCEPT_GOLD.php"><div id="CONCEPT_GOLD" class="menuitem">金钱</div></a>
+				<a href="CONCEPT_GOLD_WHERE_TO_GET.php.htm" tppabs="CONCEPT_GOLD_WHERE_TO_GET.php"><div id="CONCEPT_GOLD_WHERE_TO_GET" class="menuitem">哪里能获得金钱？</div></a>
+				<a href="CONCEPT_GOLD_TERRAIN.php.htm" tppabs="CONCEPT_GOLD_TERRAIN.php"><div id="CONCEPT_GOLD_TERRAIN" class="menuitem">地形与金钱</div></a>
+				<a href="CONCEPT_GOLD_RESOURCES.php.htm" tppabs="CONCEPT_GOLD_RESOURCES.php"><div id="CONCEPT_GOLD_RESOURCES" class="menuitem">资源</div></a>
+				<a href="CONCEPT_GOLD_TRADING_POST.php.htm" tppabs="CONCEPT_GOLD_TRADING_POST.php"><div id="CONCEPT_GOLD_TRADING_POST" class="menuitem">贸易站</div></a>
+				<a href="CONCEPT_GOLD_BUILDINGS.php.htm" tppabs="CONCEPT_GOLD_BUILDINGS.php"><div id="CONCEPT_GOLD_BUILDINGS" class="menuitem">建筑</div></a>
+				<a href="CONCEPT_GOLD_WONDERS.php.htm" tppabs="CONCEPT_GOLD_WONDERS.php"><div id="CONCEPT_GOLD_WONDERS" class="menuitem">奇观</div></a>
+				<a href="CONCEPT_GOLD_TRADE_ROUTES.php.htm" tppabs="CONCEPT_GOLD_TRADE_ROUTES.php"><div id="CONCEPT_GOLD_TRADE_ROUTES" class="menuitem">城市连接</div></a>
+				<a href="CONCEPT_GOLD_TRADE_ROUTES_BLOCKADE.php.htm" tppabs="CONCEPT_GOLD_TRADE_ROUTES_BLOCKADE.php"><div id="CONCEPT_GOLD_TRADE_ROUTES_BLOCKADE" class="menuitem">封锁</div></a>
+				<a href="CONCEPT_GOLD_BARBARIAN_CAMPS.php.htm" tppabs="CONCEPT_GOLD_BARBARIAN_CAMPS.php"><div id="CONCEPT_GOLD_BARBARIAN_CAMPS" class="menuitem">蛮族营地</div></a>
+				<a href="CONCEPT_GOLD_ANCIENT_RUINS.php.htm" tppabs="CONCEPT_GOLD_ANCIENT_RUINS.php"><div id="CONCEPT_GOLD_ANCIENT_RUINS" class="menuitem">远古遗迹</div></a>
+				<a href="CONCEPT_GOLD_CITY_STATES.php.htm" tppabs="CONCEPT_GOLD_CITY_STATES.php"><div id="CONCEPT_GOLD_CITY_STATES" class="menuitem">城邦</div></a>
+				<a href="CONCEPT_GOLD_PILLAGE_IMPROVEMENTS.php.htm" tppabs="CONCEPT_GOLD_PILLAGE_IMPROVEMENTS.php"><div id="CONCEPT_GOLD_PILLAGE_IMPROVEMENTS" class="menuitem">劫掠敌人的设施</div></a>
+				<a href="CONCEPT_GOLD_CITY_CAPTURE.php.htm" tppabs="CONCEPT_GOLD_CITY_CAPTURE.php"><div id="CONCEPT_GOLD_CITY_CAPTURE" class="menuitem">占领城市</div></a>
+				<a href="CONCEPT_GOLD_DIPLOMACY.php.htm" tppabs="CONCEPT_GOLD_DIPLOMACY.php"><div id="CONCEPT_GOLD_DIPLOMACY" class="menuitem">金钱交易</div></a>
+				<a href="CONCEPT_GOLD_TRADE_MISSION.php.htm" tppabs="CONCEPT_GOLD_TRADE_MISSION.php"><div id="CONCEPT_GOLD_TRADE_MISSION" class="menuitem">拓展贸易事业</div></a>
+				<a href="CONCEPT_GOLD_SPENDING.php.htm" tppabs="CONCEPT_GOLD_SPENDING.php"><div id="CONCEPT_GOLD_SPENDING" class="menuitem">花费金钱</div></a>
+				<a href="CONCEPT_GOLD_UNIT_BUILDING_MAINTENANCE.php.htm" tppabs="CONCEPT_GOLD_UNIT_BUILDING_MAINTENANCE.php"><div id="CONCEPT_GOLD_UNIT_BUILDING_MAINTENANCE" class="menuitem">单位和建筑的维护费</div></a>
+				<a href="CONCEPT_GOLD_ROAD_MAINTENANCE.php.htm" tppabs="CONCEPT_GOLD_ROAD_MAINTENANCE.php"><div id="CONCEPT_GOLD_ROAD_MAINTENANCE" class="menuitem">道路维护费</div></a>
+				<a href="CONCEPT_GOLD_PURCHASE_TILES.php.htm" tppabs="CONCEPT_GOLD_PURCHASE_TILES.php"><div id="CONCEPT_GOLD_PURCHASE_TILES" class="menuitem">购买区块</div></a>
+				<a href="CONCEPT_GOLD_PURCHASE_UNITS_BUILDINGS_WONDERS.php.htm" tppabs="CONCEPT_GOLD_PURCHASE_UNITS_BUILDINGS_WONDERS.php"><div id="CONCEPT_GOLD_PURCHASE_UNITS_BUILDINGS_WONDERS" class="menuitem">购买单位、建筑或者奇观</div></a>
+				<a href="CONCEPT_GOLD_BUY_CITY_STATE_INFLUENCE.php.htm" tppabs="CONCEPT_GOLD_BUY_CITY_STATE_INFLUENCE.php"><div id="CONCEPT_GOLD_BUY_CITY_STATE_INFLUENCE" class="menuitem">购买对城邦的影响力</div></a>
+				<a href="CONCEPT_GOLD_UPGRADE_UNITS.php.htm" tppabs="CONCEPT_GOLD_UPGRADE_UNITS.php"><div id="CONCEPT_GOLD_UPGRADE_UNITS" class="menuitem">升级过时的单位</div></a>
+				<a href="CONCEPT_GOLD_SPENDING_ON_DIPLOMACY.php.htm" tppabs="CONCEPT_GOLD_SPENDING_ON_DIPLOMACY.php"><div id="CONCEPT_GOLD_SPENDING_ON_DIPLOMACY" class="menuitem">外交与金钱</div></a>
+				<a href="CONCEPT_GOLD_DIPLOMACY_FLAT_FEE.php.htm" tppabs="CONCEPT_GOLD_DIPLOMACY_FLAT_FEE.php"><div id="CONCEPT_GOLD_DIPLOMACY_FLAT_FEE" class="menuitem">一次性支付</div></a>
+				<a href="CONCEPT_GOLD_DIPLOMACY_PER_TURN.php.htm" tppabs="CONCEPT_GOLD_DIPLOMACY_PER_TURN.php"><div id="CONCEPT_GOLD_DIPLOMACY_PER_TURN" class="menuitem">每回合</div></a>
+				<a href="CONCEPT_GOLD_CITY_CAPTURED_BY_BARBARIANS.php.htm" tppabs="CONCEPT_GOLD_CITY_CAPTURED_BY_BARBARIANS.php"><div id="CONCEPT_GOLD_CITY_CAPTURED_BY_BARBARIANS" class="menuitem">实施劫掠</div></a>
+				<a href="CONCEPT_GOLD_CITY_CAPTURED_BY_CIV.php.htm" tppabs="CONCEPT_GOLD_CITY_CAPTURED_BY_CIV.php"><div id="CONCEPT_GOLD_CITY_CAPTURED_BY_CIV" class="menuitem">失去城市</div></a>
+				<a href="CONCEPT_GOLD_RUNNING_DEFICIT.php.htm" tppabs="CONCEPT_GOLD_RUNNING_DEFICIT.php"><div id="CONCEPT_GOLD_RUNNING_DEFICIT" class="menuitem">耗尽金钱</div></a>
+			</div></div>
+			<div id="GROUP_HEADER_ADVISORS" class="menugroupcontainer"><a href="javascript:togglediv('HEADER_ADVISORS_CONTENT');"><div id="HEADER_ADVISORS" class="menugroup">顾问</div></a><div id="HEADER_ADVISORS_CONTENT">
+				<a href="CONCEPT_ADVISORS.php.htm" tppabs="CONCEPT_ADVISORS.php"><div id="CONCEPT_ADVISORS" class="menuitem">顾问</div></a>
+				<a href="CONCEPT_ADVISORS_ECONOMIC.php.htm" tppabs="CONCEPT_ADVISORS_ECONOMIC.php"><div id="CONCEPT_ADVISORS_ECONOMIC" class="menuitem">经济</div></a>
+				<a href="CONCEPT_ADVISORS_MILITARY.php.htm" tppabs="CONCEPT_ADVISORS_MILITARY.php"><div id="CONCEPT_ADVISORS_MILITARY" class="menuitem">军事</div></a>
+				<a href="CONCEPT_ADVISORS_FOREIGN.php.htm" tppabs="CONCEPT_ADVISORS_FOREIGN.php"><div id="CONCEPT_ADVISORS_FOREIGN" class="menuitem">外交</div></a>
+				<a href="CONCEPT_ADVISORS_SCIENCE.php.htm" tppabs="CONCEPT_ADVISORS_SCIENCE.php"><div id="CONCEPT_ADVISORS_SCIENCE" class="menuitem">科学</div></a>
+				<a href="CONCEPT_ADVISORS_CONTACTING.php.htm" tppabs="CONCEPT_ADVISORS_CONTACTING.php"><div id="CONCEPT_ADVISORS_CONTACTING" class="menuitem">联系一位顾问</div></a>
+				<a href="CONCEPT_ADVISORS_TURNINGOFF.php.htm" tppabs="CONCEPT_ADVISORS_TURNINGOFF.php"><div id="CONCEPT_ADVISORS_TURNINGOFF" class="menuitem">关闭建议</div></a>
+			</div></div>
+			<div id="GROUP_HEADER_PEOPLE" class="menugroupcontainer"><a href="javascript:togglediv('HEADER_PEOPLE_CONTENT');"><div id="HEADER_PEOPLE" class="menugroup">伟人和专业人员</div></a><div id="HEADER_PEOPLE_CONTENT">
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE" class="menuitem">专业人员和伟人</div></a>
+				<a href="CONCEPT_BUILDINGS_SPECIALISTS.php.htm" tppabs="CONCEPT_BUILDINGS_SPECIALISTS.php"><div id="CONCEPT_BUILDINGS_SPECIALISTS" class="menuitem">专业人员和建筑</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_SPECIALISTS.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_SPECIALISTS.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_SPECIALISTS" class="menuitem">专业人员</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_SPECIALISTS_ARTIST.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_SPECIALISTS_ARTIST.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_SPECIALISTS_ARTIST" class="menuitem">美术家</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_SPECIALISTS_ENGINEER.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_SPECIALISTS_ENGINEER.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_SPECIALISTS_ENGINEER" class="menuitem">工程师</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_SPECIALISTS_MERCHANT.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_SPECIALISTS_MERCHANT.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_SPECIALISTS_MERCHANT" class="menuitem">商业家</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_SPECIALISTS_SCIENTIST.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_SPECIALISTS_SCIENTIST.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_SPECIALISTS_SCIENTIST" class="menuitem">科学家</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_SPECIALISTS_ASSIGNING.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_SPECIALISTS_ASSIGNING.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_SPECIALISTS_ASSIGNING" class="menuitem">分配专业人员</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_SPECIALISTS_EFFECT.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_SPECIALISTS_EFFECT.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_SPECIALISTS_EFFECT" class="menuitem">分配专业人员的效果</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE" class="menuitem">伟人</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GENERATING.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GENERATING.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GENERATING" class="menuitem">产生伟人</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_ABILITIES.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_ABILITIES.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_ABILITIES" class="menuitem">伟人的特殊能力</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GOLDEN_AGE.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GOLDEN_AGE.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GOLDEN_AGE" class="menuitem">黄金时代</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_SPECIAL_IMPROVEMENT.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_SPECIAL_IMPROVEMENT.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_SPECIAL_IMPROVEMENT" class="menuitem">特殊设施</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_SPECIAL_ABILITY.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_SPECIAL_ABILITY.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_SPECIAL_ABILITY" class="menuitem">特殊能力</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_MOVING_GREAT_PEOPLE.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_MOVING_GREAT_PEOPLE.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_MOVING_GREAT_PEOPLE" class="menuitem">移动伟人</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GREAT_ARTIST.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GREAT_ARTIST.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GREAT_ARTIST" class="menuitem">大美术家</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_LANDMARK.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_LANDMARK.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_LANDMARK" class="menuitem">特殊设施：风景地标</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_CULTURE_BOMB.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_CULTURE_BOMB.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_CULTURE_BOMB" class="menuitem">特殊能力：黄金时代</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GREAT_ENGINEER.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GREAT_ENGINEER.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GREAT_ENGINEER" class="menuitem">大工程师</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_MANUFACTORY.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_MANUFACTORY.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_MANUFACTORY" class="menuitem">特殊设施：制造中心</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_HURRY_PRODUCTION.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_HURRY_PRODUCTION.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_HURRY_PRODUCTION" class="menuitem">加速建造</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GREAT_MERCHANT.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GREAT_MERCHANT.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GREAT_MERCHANT" class="menuitem">大商业家</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_CUSTOMS_HOUSE.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_CUSTOMS_HOUSE.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_CUSTOMS_HOUSE" class="menuitem">特殊设施：海关</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_TRADE_MISSION.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_TRADE_MISSION.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_TRADE_MISSION" class="menuitem">特殊能力：贸易事业</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GREAT_SCIENTIST.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GREAT_SCIENTIST.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GREAT_SCIENTIST" class="menuitem">大科学家</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_ACADEMY.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_ACADEMY.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_ACADEMY" class="menuitem">特殊设施：学园</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_LEARN_NEW_TECH.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_LEARN_NEW_TECH.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_LEARN_NEW_TECH" class="menuitem">特殊能力：免费的科技点数</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GREAT_GENERAL.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GREAT_GENERAL.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GREAT_GENERAL" class="menuitem">陆军统帅</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_CITADEL.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_CITADEL.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_CITADEL" class="menuitem">特殊设施：军事要塞</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_COMBAT_BONUS.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_COMBAT_BONUS.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_COMBAT_BONUS" class="menuitem">特殊能力：战斗加成</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_SPECIALISTS_WRITER.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_SPECIALISTS_WRITER.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_SPECIALISTS_WRITER" class="menuitem">文学家</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_SPECIALISTS_MUSICIAN.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_SPECIALISTS_MUSICIAN.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_SPECIALISTS_MUSICIAN" class="menuitem">音乐家</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_ART_CREATEGW.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_ART_CREATEGW.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_ART_CREATEGW" class="menuitem">特殊能力：杰作</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GREAT_WRITER.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GREAT_WRITER.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GREAT_WRITER" class="menuitem">大文学家</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_WRITER_CREATEGW.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_WRITER_CREATEGW.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_WRITER_CREATEGW" class="menuitem">特殊能力：杰作</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_TREATISE.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_TREATISE.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_TREATISE" class="menuitem">特殊能力：政治论著</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GREAT_MUSICIAN.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GREAT_MUSICIAN.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_GREAT_MUSICIAN" class="menuitem">大音乐家</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_MUSICIAN_CREATEGW.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_MUSICIAN_CREATEGW.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_MUSICIAN_CREATEGW" class="menuitem">特殊能力：杰作</div></a>
+				<a href="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_CONCERT_TOUR.php.htm" tppabs="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_CONCERT_TOUR.php"><div id="CONCEPT_SPECIALISTS_AND_GREAT_PEOPLE_GREAT_PEOPLE_CONCERT_TOUR" class="menuitem">特殊能力：巡回演出</div></a>
+				<a href="CONCEPT_GREAT_ADMIRAL.php.htm" tppabs="CONCEPT_GREAT_ADMIRAL.php"><div id="CONCEPT_GREAT_ADMIRAL" class="menuitem">海军统帅</div></a>
+				<a href="CONCEPT_GREAT_ADMIRAL_ABILITY.php.htm" tppabs="CONCEPT_GREAT_ADMIRAL_ABILITY.php"><div id="CONCEPT_GREAT_ADMIRAL_ABILITY" class="menuitem">特殊能力：战斗加成</div></a>
+				<a href="CONCEPT_GREAT_ADMIRAL_ABILITY2.php.htm" tppabs="CONCEPT_GREAT_ADMIRAL_ABILITY2.php"><div id="CONCEPT_GREAT_ADMIRAL_ABILITY2" class="menuitem">特殊能力：修整舰队</div></a>
+				<a href="CONCEPT_GREAT_PROPHET.php.htm" tppabs="CONCEPT_GREAT_PROPHET.php"><div id="CONCEPT_GREAT_PROPHET" class="menuitem">大先知</div></a>
+				<a href="CONCEPT_GREAT_PROPHET_IMPROVEMENT.php.htm" tppabs="CONCEPT_GREAT_PROPHET_IMPROVEMENT.php"><div id="CONCEPT_GREAT_PROPHET_IMPROVEMENT" class="menuitem">特色设施：圣地</div></a>
+				<a href="CONCEPT_GREAT_PROPHET_ABILITY.php.htm" tppabs="CONCEPT_GREAT_PROPHET_ABILITY.php"><div id="CONCEPT_GREAT_PROPHET_ABILITY" class="menuitem">特殊能力：传播宗教</div></a>
+			</div></div>
+			<div id="GROUP_HEADER_CITYSTATE" class="menugroupcontainer"><a href="javascript:togglediv('HEADER_CITYSTATE_CONTENT');"><div id="HEADER_CITYSTATE" class="menugroup">城邦</div></a><div id="HEADER_CITYSTATE_CONTENT">
+				<a href="CONCEPT_CITY_STATE.php.htm" tppabs="CONCEPT_CITY_STATE.php"><div id="CONCEPT_CITY_STATE" class="menuitem">城邦</div></a>
+				<a href="CONCEPT_CITY_STATE_TYPES.php.htm" tppabs="CONCEPT_CITY_STATE_TYPES.php"><div id="CONCEPT_CITY_STATE_TYPES" class="menuitem">城邦类型</div></a>
+				<a href="CONCEPT_CITY_STATE_TYPES_CULTURED.php.htm" tppabs="CONCEPT_CITY_STATE_TYPES_CULTURED.php"><div id="CONCEPT_CITY_STATE_TYPES_CULTURED" class="menuitem">文化型</div></a>
+				<a href="CONCEPT_CITY_STATE_TYPES_MARITIME.php.htm" tppabs="CONCEPT_CITY_STATE_TYPES_MARITIME.php"><div id="CONCEPT_CITY_STATE_TYPES_MARITIME" class="menuitem">航海型</div></a>
+				<a href="CONCEPT_CITY_STATE_TYPES_MILITARISTIC.php.htm" tppabs="CONCEPT_CITY_STATE_TYPES_MILITARISTIC.php"><div id="CONCEPT_CITY_STATE_TYPES_MILITARISTIC" class="menuitem">军事型</div></a>
+				<a href="CONCEPT_CITY_STATE_COMMUNICATION.php.htm" tppabs="CONCEPT_CITY_STATE_COMMUNICATION.php"><div id="CONCEPT_CITY_STATE_COMMUNICATION" class="menuitem">和城邦交往</div></a>
+				<a href="CONCEPT_CITY_STATE_INFLUENCE.php.htm" tppabs="CONCEPT_CITY_STATE_INFLUENCE.php"><div id="CONCEPT_CITY_STATE_INFLUENCE" class="menuitem">城邦影响力</div></a>
+				<a href="CONCEPT_CITY_STATE_INFLUENCE_GIVE_GOLD.php.htm" tppabs="CONCEPT_CITY_STATE_INFLUENCE_GIVE_GOLD.php"><div id="CONCEPT_CITY_STATE_INFLUENCE_GIVE_GOLD" class="menuitem">金钱：最常见的礼物！</div></a>
+				<a href="CONCEPT_CITY_STATE_INFLUENCE_GIVE_UNITS.php.htm" tppabs="CONCEPT_CITY_STATE_INFLUENCE_GIVE_UNITS.php"><div id="CONCEPT_CITY_STATE_INFLUENCE_GIVE_UNITS" class="menuitem">向他们赠送单位</div></a>
+				<a href="CONCEPT_CITY_STATE_INFLUENCE_DO_NOTHING.php.htm" tppabs="CONCEPT_CITY_STATE_INFLUENCE_DO_NOTHING.php"><div id="CONCEPT_CITY_STATE_INFLUENCE_DO_NOTHING" class="menuitem">什么也不做</div></a>
+				<a href="CONCEPT_CITY_STATE_INFLUENCE_LEVELS.php.htm" tppabs="CONCEPT_CITY_STATE_INFLUENCE_LEVELS.php"><div id="CONCEPT_CITY_STATE_INFLUENCE_LEVELS" class="menuitem">关系级别</div></a>
+				<a href="CONCEPT_CITY_STATE_INFLUENCE_LEVELS_PERMANENT_WAR.php.htm" tppabs="CONCEPT_CITY_STATE_INFLUENCE_LEVELS_PERMANENT_WAR.php"><div id="CONCEPT_CITY_STATE_INFLUENCE_LEVELS_PERMANENT_WAR" class="menuitem">防备</div></a>
+				<a href="CONCEPT_CITY_STATE_INFLUENCE_LEVELS_WAR.php.htm" tppabs="CONCEPT_CITY_STATE_INFLUENCE_LEVELS_WAR.php"><div id="CONCEPT_CITY_STATE_INFLUENCE_LEVELS_WAR" class="menuitem">战争</div></a>
+				<a href="CONCEPT_CITY_STATE_INFLUENCE_LEVELS_NEUTRAL.php.htm" tppabs="CONCEPT_CITY_STATE_INFLUENCE_LEVELS_NEUTRAL.php"><div id="CONCEPT_CITY_STATE_INFLUENCE_LEVELS_NEUTRAL" class="menuitem">中立</div></a>
+				<a href="CONCEPT_CITY_STATE_INFLUENCE_LEVELS_FRIENDS.php.htm" tppabs="CONCEPT_CITY_STATE_INFLUENCE_LEVELS_FRIENDS.php"><div id="CONCEPT_CITY_STATE_INFLUENCE_LEVELS_FRIENDS" class="menuitem">朋友</div></a>
+				<a href="CONCEPT_CITY_STATE_INFLUENCE_LEVELS_ALLIES.php.htm" tppabs="CONCEPT_CITY_STATE_INFLUENCE_LEVELS_ALLIES.php"><div id="CONCEPT_CITY_STATE_INFLUENCE_LEVELS_ALLIES" class="menuitem">城邦同盟</div></a>
+				<a href="CONCEPT_CITY_STATE_MISSIONS.php.htm" tppabs="CONCEPT_CITY_STATE_MISSIONS.php"><div id="CONCEPT_CITY_STATE_MISSIONS" class="menuitem">城邦任务</div></a>
+				<a href="CONCEPT_CITY_STATE_WAR.php.htm" tppabs="CONCEPT_CITY_STATE_WAR.php"><div id="CONCEPT_CITY_STATE_WAR" class="menuitem">城邦战争</div></a>
+				<a href="CONCEPT_CITY_STATE_LIBERATING.php.htm" tppabs="CONCEPT_CITY_STATE_LIBERATING.php"><div id="CONCEPT_CITY_STATE_LIBERATING" class="menuitem">解放一个城邦</div></a>
+				<a href="CONCEPT_CITY_STATE_DIPLOMACY_VICTORY.php.htm" tppabs="CONCEPT_CITY_STATE_DIPLOMACY_VICTORY.php"><div id="CONCEPT_CITY_STATE_DIPLOMACY_VICTORY" class="menuitem">城邦和外交胜利</div></a>
+				<a href="CONCEPT_CITY_STATE_RELIGIOUS.php.htm" tppabs="CONCEPT_CITY_STATE_RELIGIOUS.php"><div id="CONCEPT_CITY_STATE_RELIGIOUS" class="menuitem">宗教型</div></a>
+				<a href="CONCEPT_CITY_STATE_MERCANTILE.php.htm" tppabs="CONCEPT_CITY_STATE_MERCANTILE.php"><div id="CONCEPT_CITY_STATE_MERCANTILE" class="menuitem">商业型</div></a>
+				<a href="CONCEPT_CITY_STATE_BULLYING.php.htm" tppabs="CONCEPT_CITY_STATE_BULLYING.php"><div id="CONCEPT_CITY_STATE_BULLYING" class="menuitem">要求进贡</div></a>
+				<a href="CONCEPT_CITY_STATE_SPREAD_RELIGION.php.htm" tppabs="CONCEPT_CITY_STATE_SPREAD_RELIGION.php"><div id="CONCEPT_CITY_STATE_SPREAD_RELIGION" class="menuitem">宗教和城邦影响</div></a>
+			</div></div>
+			<div id="GROUP_HEADER_MOVEMENT" class="menugroupcontainer"><a href="javascript:togglediv('HEADER_MOVEMENT_CONTENT');"><div id="HEADER_MOVEMENT" class="menugroup">单位移动力</div></a><div id="HEADER_MOVEMENT_CONTENT">
+				<a href="CONCEPT_MOVEMENT.php.htm" tppabs="CONCEPT_MOVEMENT.php"><div id="CONCEPT_MOVEMENT" class="menuitem">移动</div></a>
+				<a href="CONCEPT_MOVEMENT_HOW_TO_ORDER.php.htm" tppabs="CONCEPT_MOVEMENT_HOW_TO_ORDER.php"><div id="CONCEPT_MOVEMENT_HOW_TO_ORDER" class="menuitem">怎样命令单位移动？</div></a>
+				<a href="CONCEPT_MOVEMENT_RIGHT_CLICK.php.htm" tppabs="CONCEPT_MOVEMENT_RIGHT_CLICK.php"><div id="CONCEPT_MOVEMENT_RIGHT_CLICK" class="menuitem">右键点击</div></a>
+				<a href="CONCEPT_MOVEMENT_MOVE_MODE.php.htm" tppabs="CONCEPT_MOVEMENT_MOVE_MODE.php"><div id="CONCEPT_MOVEMENT_MOVE_MODE" class="menuitem">移动模式</div></a>
+				<a href="CONCEPT_MOVEMENT_LEGAL_MOVES.php.htm" tppabs="CONCEPT_MOVEMENT_LEGAL_MOVES.php"><div id="CONCEPT_MOVEMENT_LEGAL_MOVES" class="menuitem">合法和违规的移动</div></a>
+				<a href="CONCEPT_MOVEMENT_ILLEGAL_MOVES.php.htm" tppabs="CONCEPT_MOVEMENT_ILLEGAL_MOVES.php"><div id="CONCEPT_MOVEMENT_ILLEGAL_MOVES" class="menuitem">违规移动</div></a>
+				<a href="CONCEPT_MOVEMENT_MULTIPLE_TURN_MOVES.php.htm" tppabs="CONCEPT_MOVEMENT_MULTIPLE_TURN_MOVES.php"><div id="CONCEPT_MOVEMENT_MULTIPLE_TURN_MOVES" class="menuitem">多回合移动指令</div></a>
+				<a href="CONCEPT_MOVEMENT_MOVEMENT_POINTS.php.htm" tppabs="CONCEPT_MOVEMENT_MOVEMENT_POINTS.php"><div id="CONCEPT_MOVEMENT_MOVEMENT_POINTS" class="menuitem">移动力</div></a>
+				<a href="CONCEPT_MOVEMENT_EXPENDING_MOVEMENT_POINTS.php.htm" tppabs="CONCEPT_MOVEMENT_EXPENDING_MOVEMENT_POINTS.php"><div id="CONCEPT_MOVEMENT_EXPENDING_MOVEMENT_POINTS" class="menuitem">消耗移动力</div></a>
+				<a href="CONCEPT_MOVEMENT_ROADS_AND_RAILROADS.php.htm" tppabs="CONCEPT_MOVEMENT_ROADS_AND_RAILROADS.php"><div id="CONCEPT_MOVEMENT_ROADS_AND_RAILROADS" class="menuitem">道路和铁路</div></a>
+				<a href="CONCEPT_MOVEMENT_ROADS_AND_RAILROADS_AND_RIVERS.php.htm" tppabs="CONCEPT_MOVEMENT_ROADS_AND_RAILROADS_AND_RIVERS.php"><div id="CONCEPT_MOVEMENT_ROADS_AND_RAILROADS_AND_RIVERS" class="menuitem">河流与道路/铁路</div></a>
+				<a href="CONCEPT_MOVEMENT_STACKING_LIMITS.php.htm" tppabs="CONCEPT_MOVEMENT_STACKING_LIMITS.php"><div id="CONCEPT_MOVEMENT_STACKING_LIMITS" class="menuitem">堆叠限制</div></a>
+				<a href="CONCEPT_MOVEMENT_COMBAT.php.htm" tppabs="CONCEPT_MOVEMENT_COMBAT.php"><div id="CONCEPT_MOVEMENT_COMBAT" class="menuitem">战斗时的移动</div></a>
+				<a href="CONCEPT_MOVEMENT_COMBAT_ATTACK_ORDERS.php.htm" tppabs="CONCEPT_MOVEMENT_COMBAT_ATTACK_ORDERS.php"><div id="CONCEPT_MOVEMENT_COMBAT_ATTACK_ORDERS" class="menuitem">攻击命令</div></a>
+				<a href="CONCEPT_MOVEMENT_COMBAT_ZONES_OF_CONTROL.php.htm" tppabs="CONCEPT_MOVEMENT_COMBAT_ZONES_OF_CONTROL.php"><div id="CONCEPT_MOVEMENT_COMBAT_ZONES_OF_CONTROL" class="menuitem">控制区域</div></a>
+				<a href="CONCEPT_MOVEMENT_NAVAL.php.htm" tppabs="CONCEPT_MOVEMENT_NAVAL.php"><div id="CONCEPT_MOVEMENT_NAVAL" class="menuitem">海上移动</div></a>
+				<a href="CONCEPT_MOVEMENT_EMBARKING.php.htm" tppabs="CONCEPT_MOVEMENT_EMBARKING.php"><div id="CONCEPT_MOVEMENT_EMBARKING" class="menuitem">陆军单位上船</div></a>
+			</div></div>
+			<div id="GROUP_HEADER_AIRCOMBAT" class="menugroupcontainer"><a href="javascript:togglediv('HEADER_AIRCOMBAT_CONTENT');"><div id="HEADER_AIRCOMBAT" class="menugroup">空战规则</div></a><div id="HEADER_AIRCOMBAT_CONTENT">
+				<a href="CONCEPT_AIR_POWER.php.htm" tppabs="CONCEPT_AIR_POWER.php"><div id="CONCEPT_AIR_POWER" class="menuitem">空中力量</div></a>
+				<a href="CONCEPT_AIR_POWER_AIR_UNITS.php.htm" tppabs="CONCEPT_AIR_POWER_AIR_UNITS.php"><div id="CONCEPT_AIR_POWER_AIR_UNITS" class="menuitem">空中单位</div></a>
+				<a href="CONCEPT_AIR_POWER_HELICOPTER_GUNSHIPS.php.htm" tppabs="CONCEPT_AIR_POWER_HELICOPTER_GUNSHIPS.php"><div id="CONCEPT_AIR_POWER_HELICOPTER_GUNSHIPS" class="menuitem">武装直升机</div></a>
+				<a href="CONCEPT_AIR_POWER_HELICOPTER_GUNSHIPS_MOVEMENT.php.htm" tppabs="CONCEPT_AIR_POWER_HELICOPTER_GUNSHIPS_MOVEMENT.php"><div id="CONCEPT_AIR_POWER_HELICOPTER_GUNSHIPS_MOVEMENT" class="menuitem">武装直升机的移动</div></a>
+				<a href="CONCEPT_AIR_POWER_HELICOPTER_GUNSHIPS_ANTI_TANK.php.htm" tppabs="CONCEPT_AIR_POWER_HELICOPTER_GUNSHIPS_ANTI_TANK.php"><div id="CONCEPT_AIR_POWER_HELICOPTER_GUNSHIPS_ANTI_TANK" class="menuitem">反坦克加成</div></a>
+				<a href="CONCEPT_AIR_POWER_BASES.php.htm" tppabs="CONCEPT_AIR_POWER_BASES.php"><div id="CONCEPT_AIR_POWER_BASES" class="menuitem">空军基地</div></a>
+				<a href="CONCEPT_AIR_POWER_BASES_LOCATION.php.htm" tppabs="CONCEPT_AIR_POWER_BASES_LOCATION.php"><div id="CONCEPT_AIR_POWER_BASES_LOCATION" class="menuitem">基地位置</div></a>
+				<a href="CONCEPT_AIR_POWER_BASES_FIGHTERS.php.htm" tppabs="CONCEPT_AIR_POWER_BASES_FIGHTERS.php"><div id="CONCEPT_AIR_POWER_BASES_FIGHTERS" class="menuitem">战斗机和喷气式战斗机</div></a>
+				<a href="CONCEPT_AIR_POWER_BASES_BOMBERS.php.htm" tppabs="CONCEPT_AIR_POWER_BASES_BOMBERS.php"><div id="CONCEPT_AIR_POWER_BASES_BOMBERS" class="menuitem">轰炸机</div></a>
+				<a href="CONCEPT_AIR_POWER_BASES_STEALTH.php.htm" tppabs="CONCEPT_AIR_POWER_BASES_STEALTH.php"><div id="CONCEPT_AIR_POWER_BASES_STEALTH" class="menuitem">隐形轰炸机</div></a>
+				<a href="CONCEPT_AIR_POWER_BASES_ATOMIC.php.htm" tppabs="CONCEPT_AIR_POWER_BASES_ATOMIC.php"><div id="CONCEPT_AIR_POWER_BASES_ATOMIC" class="menuitem">原子弹</div></a>
+				<a href="CONCEPT_AIR_POWER_BASES_MISSILES.php.htm" tppabs="CONCEPT_AIR_POWER_BASES_MISSILES.php"><div id="CONCEPT_AIR_POWER_BASES_MISSILES" class="menuitem">所有的导弹</div></a>
+				<a href="CONCEPT_AIR_POWER_BASES_NAVAL_UNIT.php.htm" tppabs="CONCEPT_AIR_POWER_BASES_NAVAL_UNIT.php"><div id="CONCEPT_AIR_POWER_BASES_NAVAL_UNIT" class="menuitem">海上单位的容量</div></a>
+				<a href="CONCEPT_AIR_POWER_BASES_NAVAL_UNIT_CARRIER.php.htm" tppabs="CONCEPT_AIR_POWER_BASES_NAVAL_UNIT_CARRIER.php"><div id="CONCEPT_AIR_POWER_BASES_NAVAL_UNIT_CARRIER" class="menuitem">航空母舰</div></a>
+				<a href="CONCEPT_AIR_POWER_BASES_NAVAL_UNIT_MISSLE_CRUISER.php.htm" tppabs="CONCEPT_AIR_POWER_BASES_NAVAL_UNIT_MISSLE_CRUISER.php"><div id="CONCEPT_AIR_POWER_BASES_NAVAL_UNIT_MISSLE_CRUISER" class="menuitem">导弹巡洋舰</div></a>
+				<a href="CONCEPT_AIR_POWER_BASES_NAVAL_UNIT_NUCLEAR_SUBMARINE.php.htm" tppabs="CONCEPT_AIR_POWER_BASES_NAVAL_UNIT_NUCLEAR_SUBMARINE.php"><div id="CONCEPT_AIR_POWER_BASES_NAVAL_UNIT_NUCLEAR_SUBMARINE" class="menuitem">核潜艇</div></a>
+				<a href="CONCEPT_AIR_POWER_STACKING.php.htm" tppabs="CONCEPT_AIR_POWER_STACKING.php"><div id="CONCEPT_AIR_POWER_STACKING" class="menuitem">空中单位的堆叠</div></a>
+				<a href="CONCEPT_AIR_POWER_RANGE.php.htm" tppabs="CONCEPT_AIR_POWER_RANGE.php"><div id="CONCEPT_AIR_POWER_RANGE" class="menuitem">空军航程</div></a>
+				<a href="CONCEPT_AIR_POWER_RECON.php.htm" tppabs="CONCEPT_AIR_POWER_RECON.php"><div id="CONCEPT_AIR_POWER_RECON" class="menuitem">侦查</div></a>
+				<a href="CONCEPT_AIR_POWER_MISSIONS.php.htm" tppabs="CONCEPT_AIR_POWER_MISSIONS.php"><div id="CONCEPT_AIR_POWER_MISSIONS" class="menuitem">任务</div></a>
+				<a href="CONCEPT_AIR_POWER_REBASE.php.htm" tppabs="CONCEPT_AIR_POWER_REBASE.php"><div id="CONCEPT_AIR_POWER_REBASE" class="menuitem">转场</div></a>
+				<a href="CONCEPT_AIR_POWER_AIR_STRIKE.php.htm" tppabs="CONCEPT_AIR_POWER_AIR_STRIKE.php"><div id="CONCEPT_AIR_POWER_AIR_STRIKE" class="menuitem">空中打击</div></a>
+				<a href="CONCEPT_AIR_POWER_AIR_SWEEP.php.htm" tppabs="CONCEPT_AIR_POWER_AIR_SWEEP.php"><div id="CONCEPT_AIR_POWER_AIR_SWEEP" class="menuitem">空中游猎</div></a>
+				<a href="CONCEPT_AIR_POWER_INTERCEPTION.php.htm" tppabs="CONCEPT_AIR_POWER_INTERCEPTION.php"><div id="CONCEPT_AIR_POWER_INTERCEPTION" class="menuitem">拦截</div></a>
+				<a href="CONCEPT_AIR_POWER_AIR_STRIKE_RULES.php.htm" tppabs="CONCEPT_AIR_POWER_AIR_STRIKE_RULES.php"><div id="CONCEPT_AIR_POWER_AIR_STRIKE_RULES" class="menuitem">空中打击任务</div></a>
+				<a href="CONCEPT_AIR_POWER_INTERCEPTION_RULES.php.htm" tppabs="CONCEPT_AIR_POWER_INTERCEPTION_RULES.php"><div id="CONCEPT_AIR_POWER_INTERCEPTION_RULES" class="menuitem">拦截</div></a>
+				<a href="CONCEPT_AIR_POWER_AIR_SWEEPS_RULES.php.htm" tppabs="CONCEPT_AIR_POWER_AIR_SWEEPS_RULES.php"><div id="CONCEPT_AIR_POWER_AIR_SWEEPS_RULES" class="menuitem">空中游猎任务</div></a>
+				<a href="CONCEPT_AIR_POWER_MISSILES_RULES.php.htm" tppabs="CONCEPT_AIR_POWER_MISSILES_RULES.php"><div id="CONCEPT_AIR_POWER_MISSILES_RULES" class="menuitem">导弹</div></a>
+				<a href="CONCEPT_AIR_POWER_ATOMIC_BOMBS_RULES.php.htm" tppabs="CONCEPT_AIR_POWER_ATOMIC_BOMBS_RULES.php"><div id="CONCEPT_AIR_POWER_ATOMIC_BOMBS_RULES" class="menuitem">原子弹</div></a>
+				<a href="CONCEPT_AIR_POWER_NUCLEAR_MISSILES_RULES.php.htm" tppabs="CONCEPT_AIR_POWER_NUCLEAR_MISSILES_RULES.php"><div id="CONCEPT_AIR_POWER_NUCLEAR_MISSILES_RULES" class="menuitem">核导弹</div></a>
+			</div></div>
+			<div id="GROUP_HEADER_RUBARB" class="menugroupcontainer"><a href="javascript:togglediv('HEADER_RUBARB_CONTENT');"><div id="HEADER_RUBARB" class="menugroup">废墟和蛮族</div></a><div id="HEADER_RUBARB_CONTENT">
+				<a href="CONCEPT_BARBARIANS_AND_ANCIENT_RUINS.php.htm" tppabs="CONCEPT_BARBARIANS_AND_ANCIENT_RUINS.php"><div id="CONCEPT_BARBARIANS_AND_ANCIENT_RUINS" class="menuitem">遗迹和蛮族</div></a>
+				<a href="CONCEPT_ANCIENT_RUINS.php.htm" tppabs="CONCEPT_ANCIENT_RUINS.php"><div id="CONCEPT_ANCIENT_RUINS" class="menuitem">远古遗迹</div></a>
+				<a href="CONCEPT_ANCIENT_RUINS_BENEFITS.php.htm" tppabs="CONCEPT_ANCIENT_RUINS_BENEFITS.php"><div id="CONCEPT_ANCIENT_RUINS_BENEFITS" class="menuitem">遗迹利益</div></a>
+				<a href="CONCEPT_ANCIENT_RUINS_BENEFITS_FREE_TECHNOLOGY.php.htm" tppabs="CONCEPT_ANCIENT_RUINS_BENEFITS_FREE_TECHNOLOGY.php"><div id="CONCEPT_ANCIENT_RUINS_BENEFITS_FREE_TECHNOLOGY" class="menuitem">免费的科技</div></a>
+				<a href="CONCEPT_ANCIENT_RUINS_BENEFITS_MAP.php.htm" tppabs="CONCEPT_ANCIENT_RUINS_BENEFITS_MAP.php"><div id="CONCEPT_ANCIENT_RUINS_BENEFITS_MAP" class="menuitem">地图</div></a>
+				<a href="CONCEPT_ANCIENT_RUINS_BENEFITS_WEAPONS.php.htm" tppabs="CONCEPT_ANCIENT_RUINS_BENEFITS_WEAPONS.php"><div id="CONCEPT_ANCIENT_RUINS_BENEFITS_WEAPONS" class="menuitem">武器升级</div></a>
+				<a href="CONCEPT_ANCIENT_RUINS_BENEFITS_SURVIVORS.php.htm" tppabs="CONCEPT_ANCIENT_RUINS_BENEFITS_SURVIVORS.php"><div id="CONCEPT_ANCIENT_RUINS_BENEFITS_SURVIVORS" class="menuitem">幸存者</div></a>
+				<a href="CONCEPT_ANCIENT_RUINS_BENEFITS_TREASURE.php.htm" tppabs="CONCEPT_ANCIENT_RUINS_BENEFITS_TREASURE.php"><div id="CONCEPT_ANCIENT_RUINS_BENEFITS_TREASURE" class="menuitem">财宝</div></a>
+				<a href="CONCEPT_ANCIENT_RUINS_BENEFITS_CULTURE.php.htm" tppabs="CONCEPT_ANCIENT_RUINS_BENEFITS_CULTURE.php"><div id="CONCEPT_ANCIENT_RUINS_BENEFITS_CULTURE" class="menuitem">来自远古遗迹的文化</div></a>
+				<a href="CONCEPT_ANCIENT_RUINS_BENEFITS_SETTLERS_AND_WORKERS.php.htm" tppabs="CONCEPT_ANCIENT_RUINS_BENEFITS_SETTLERS_AND_WORKERS.php"><div id="CONCEPT_ANCIENT_RUINS_BENEFITS_SETTLERS_AND_WORKERS" class="menuitem">移民和工人</div></a>
+				<a href="CONCEPT_BARBARIANS.php.htm" tppabs="CONCEPT_BARBARIANS.php"><div id="CONCEPT_BARBARIANS" class="menuitem">蛮族</div></a>
+				<a href="CONCEPT_BARBARIANS_ENCAMPMENTS.php.htm" tppabs="CONCEPT_BARBARIANS_ENCAMPMENTS.php"><div id="CONCEPT_BARBARIANS_ENCAMPMENTS" class="menuitem">蛮族营地</div></a>
+				<a href="CONCEPT_BARBARIANS_ENCAMPMENTS_DESTROYING.php.htm" tppabs="CONCEPT_BARBARIANS_ENCAMPMENTS_DESTROYING.php"><div id="CONCEPT_BARBARIANS_ENCAMPMENTS_DESTROYING" class="menuitem">捣毁一个蛮族营地</div></a>
+				<a href="CONCEPT_BARBARIANS_ENCAMPMENTS_NEW.php.htm" tppabs="CONCEPT_BARBARIANS_ENCAMPMENTS_NEW.php"><div id="CONCEPT_BARBARIANS_ENCAMPMENTS_NEW" class="menuitem">新的营地</div></a>
+				<a href="CONCEPT_BARBARIANS_UNITS.php.htm" tppabs="CONCEPT_BARBARIANS_UNITS.php"><div id="CONCEPT_BARBARIANS_UNITS" class="menuitem">蛮族单位</div></a>
+				<a href="CONCEPT_BARBARIANS_UNITS_NAVAL.php.htm" tppabs="CONCEPT_BARBARIANS_UNITS_NAVAL.php"><div id="CONCEPT_BARBARIANS_UNITS_NAVAL" class="menuitem">蛮族海上单位</div></a>
+				<a href="CONCEPT_BARBARIANS_CAPTURING_CIVILIANS.php.htm" tppabs="CONCEPT_BARBARIANS_CAPTURING_CIVILIANS.php"><div id="CONCEPT_BARBARIANS_CAPTURING_CIVILIANS" class="menuitem">被俘的文明单位</div></a>
+				<a href="CONCEPT_BARBARIANS_EXPERIENCE_POINT_LIMITS.php.htm" tppabs="CONCEPT_BARBARIANS_EXPERIENCE_POINT_LIMITS.php"><div id="CONCEPT_BARBARIANS_EXPERIENCE_POINT_LIMITS" class="menuitem">经验值限制</div></a>
+				<a href="CONCEPT_BARBARIANS_THE_END.php.htm" tppabs="CONCEPT_BARBARIANS_THE_END.php"><div id="CONCEPT_BARBARIANS_THE_END" class="menuitem">蛮族的终结</div></a>
+			</div></div>
+			<div id="GROUP_HEADER_UNITS" class="menugroupcontainer"><a href="javascript:togglediv('HEADER_UNITS_CONTENT');"><div id="HEADER_UNITS" class="menugroup">单位</div></a><div id="HEADER_UNITS_CONTENT">
+				<a href="CONCEPT_UNITS.php.htm" tppabs="CONCEPT_UNITS.php"><div id="CONCEPT_UNITS" class="menuitem">单位</div></a>
+				<a href="CONCEPT_UNITS_CONSTRUCTING.php.htm" tppabs="CONCEPT_UNITS_CONSTRUCTING.php"><div id="CONCEPT_UNITS_CONSTRUCTING" class="menuitem">单位的概念</div></a>
+				<a href="CONCEPT_UNITS_CHARACTERISTICS.php.htm" tppabs="CONCEPT_UNITS_CHARACTERISTICS.php"><div id="CONCEPT_UNITS_CHARACTERISTICS" class="menuitem">单位特性</div></a>
+				<a href="CONCEPT_UNITS_MOVEMENT_SPEED.php.htm" tppabs="CONCEPT_UNITS_MOVEMENT_SPEED.php"><div id="CONCEPT_UNITS_MOVEMENT_SPEED" class="menuitem">移动速度</div></a>
+				<a href="CONCEPT_UNITS_COMBAT_STRENGTH.php.htm" tppabs="CONCEPT_UNITS_COMBAT_STRENGTH.php"><div id="CONCEPT_UNITS_COMBAT_STRENGTH" class="menuitem">战斗力</div></a>
+				<a href="CONCEPT_UNITS_SPECIAL_ABILITIES.php.htm" tppabs="CONCEPT_UNITS_SPECIAL_ABILITIES.php"><div id="CONCEPT_UNITS_SPECIAL_ABILITIES" class="menuitem">单位特殊能力</div></a>
+				<a href="CONCEPT_UNITS_NATIONAL_UNITS.php.htm" tppabs="CONCEPT_UNITS_NATIONAL_UNITS.php"><div id="CONCEPT_UNITS_NATIONAL_UNITS" class="menuitem">特色单位</div></a>
+				<a href="CONCEPT_UNITS_MOVEMENT.php.htm" tppabs="CONCEPT_UNITS_MOVEMENT.php"><div id="CONCEPT_UNITS_MOVEMENT" class="menuitem">单位移动力</div></a>
+				<a href="CONCEPT_UNITS_COMBAT.php.htm" tppabs="CONCEPT_UNITS_COMBAT.php"><div id="CONCEPT_UNITS_COMBAT" class="menuitem">单位战斗</div></a>
+				<a href="CONCEPT_UNITS_NON_COMBAT_UNITS.php.htm" tppabs="CONCEPT_UNITS_NON_COMBAT_UNITS.php"><div id="CONCEPT_UNITS_NON_COMBAT_UNITS" class="menuitem">非战斗单位</div></a>
+				<a href="CONCEPT_UNITS_COMBAT_UNITS.php.htm" tppabs="CONCEPT_UNITS_COMBAT_UNITS.php"><div id="CONCEPT_UNITS_COMBAT_UNITS" class="menuitem">战斗单位</div></a>
+				<a href="CONCEPT_UNITS_NAVAL_UNITS.php.htm" tppabs="CONCEPT_UNITS_NAVAL_UNITS.php"><div id="CONCEPT_UNITS_NAVAL_UNITS" class="menuitem">海军单位</div></a>
+				<a href="CONCEPT_UNITS_AIR_UNITS.php.htm" tppabs="CONCEPT_UNITS_AIR_UNITS.php"><div id="CONCEPT_UNITS_AIR_UNITS" class="menuitem">空中单位</div></a>
+			</div></div>
+			<div id="GROUP_HEADER_VICTORY" class="menugroupcontainer"><a href="javascript:togglediv('HEADER_VICTORY_CONTENT');"><div id="HEADER_VICTORY" class="menugroup">胜利</div></a><div id="HEADER_VICTORY_CONTENT">
+				<a href="CONCEPT_TECHNOLOGY_VICTORY.php.htm" tppabs="CONCEPT_TECHNOLOGY_VICTORY.php"><div id="CONCEPT_TECHNOLOGY_VICTORY" class="menuitem">科技与胜利</div></a>
+				<a href="CONCEPT_VICTORY.php.htm" tppabs="CONCEPT_VICTORY.php"><div id="CONCEPT_VICTORY" class="menuitem">胜利与失败</div></a>
+				<a href="CONCEPT_VICTORY_CITY_STATES.php.htm" tppabs="CONCEPT_VICTORY_CITY_STATES.php"><div id="CONCEPT_VICTORY_CITY_STATES" class="menuitem">城邦与胜利</div></a>
+				<a href="CONCEPT_VICTORY_DEFEAT.php.htm" tppabs="CONCEPT_VICTORY_DEFEAT.php"><div id="CONCEPT_VICTORY_DEFEAT" class="menuitem">如何失败</div></a>
+				<a href="CONCEPT_VICTORY_DEFEAT_LOSING_LAST_CITY.php.htm" tppabs="CONCEPT_VICTORY_DEFEAT_LOSING_LAST_CITY.php"><div id="CONCEPT_VICTORY_DEFEAT_LOSING_LAST_CITY" class="menuitem">失去最后一个城市</div></a>
+				<a href="CONCEPT_VICTORY_DEFEAT_ANOTHER_WINNER.php.htm" tppabs="CONCEPT_VICTORY_DEFEAT_ANOTHER_WINNER.php"><div id="CONCEPT_VICTORY_DEFEAT_ANOTHER_WINNER" class="menuitem">其他文明获胜</div></a>
+				<a href="CONCEPT_VICTORY_DEFEAT_TIME_OUT.php.htm" tppabs="CONCEPT_VICTORY_DEFEAT_TIME_OUT.php"><div id="CONCEPT_VICTORY_DEFEAT_TIME_OUT" class="menuitem">2050年来临</div></a>
+				<a href="CONCEPT_VICTORY_VICTORY.php.htm" tppabs="CONCEPT_VICTORY_VICTORY.php"><div id="CONCEPT_VICTORY_VICTORY" class="menuitem">如何获胜</div></a>
+				<a href="CONCEPT_VICTORY_VICTORY_DOMINATION.php.htm" tppabs="CONCEPT_VICTORY_VICTORY_DOMINATION.php"><div id="CONCEPT_VICTORY_VICTORY_DOMINATION" class="menuitem">支配胜利（准征服胜利）</div></a>
+				<a href="CONCEPT_VICTORY_RAZING_ORIGINAL_CAPITAL.php.htm" tppabs="CONCEPT_VICTORY_RAZING_ORIGINAL_CAPITAL.php"><div id="CONCEPT_VICTORY_RAZING_ORIGINAL_CAPITAL" class="menuitem">摧毁起始首都</div></a>
+				<a href="CONCEPT_VICTORY_CAPITAL_AND_ORIGINAL_CAPITAL.php.htm" tppabs="CONCEPT_VICTORY_CAPITAL_AND_ORIGINAL_CAPITAL.php"><div id="CONCEPT_VICTORY_CAPITAL_AND_ORIGINAL_CAPITAL" class="menuitem">当前首都与起始首都</div></a>
+				<a href="CONCEPT_VICTORY_VICTORY_SCIENCE.php.htm" tppabs="CONCEPT_VICTORY_VICTORY_SCIENCE.php"><div id="CONCEPT_VICTORY_VICTORY_SCIENCE" class="menuitem">科技胜利</div></a>
+				<a href="CONCEPT_VICTORY_SPACESHIP_PARTS.php.htm" tppabs="CONCEPT_VICTORY_SPACESHIP_PARTS.php"><div id="CONCEPT_VICTORY_SPACESHIP_PARTS" class="menuitem">飞船组件</div></a>
+				<a href="CONCEPT_VICTORY_VICTORY_CULTURAL.php.htm" tppabs="CONCEPT_VICTORY_VICTORY_CULTURAL.php"><div id="CONCEPT_VICTORY_VICTORY_CULTURAL" class="menuitem">文化胜利</div></a>
+				<a href="CONCEPT_VICTORY_VICTORY_DIPLOMATIC.php.htm" tppabs="CONCEPT_VICTORY_VICTORY_DIPLOMATIC.php"><div id="CONCEPT_VICTORY_VICTORY_DIPLOMATIC" class="menuitem">外交胜利</div></a>
+				<a href="CONCEPT_VICTORY_DIPLOMATIC_VOTING.php.htm" tppabs="CONCEPT_VICTORY_DIPLOMATIC_VOTING.php"><div id="CONCEPT_VICTORY_DIPLOMATIC_VOTING" class="menuitem">代表</div></a>
+				<a href="CONCEPT_VICTORY_MINOR_CIV_LIBERATION.php.htm" tppabs="CONCEPT_VICTORY_MINOR_CIV_LIBERATION.php"><div id="CONCEPT_VICTORY_MINOR_CIV_LIBERATION" class="menuitem">解放</div></a>
+				<a href="CONCEPT_VICTORY_END_OF_TIME.php.htm" tppabs="CONCEPT_VICTORY_END_OF_TIME.php"><div id="CONCEPT_VICTORY_END_OF_TIME" class="menuitem">结束时间</div></a>
+				<a href="CONCEPT_VICTORY_POINTS.php.htm" tppabs="CONCEPT_VICTORY_POINTS.php"><div id="CONCEPT_VICTORY_POINTS" class="menuitem">计算分数</div></a>
+				<a href="CONCEPT_SCORE.php.htm" tppabs="CONCEPT_SCORE.php"><div id="CONCEPT_SCORE" class="menuitem">游戏积分</div></a>
+				<a href="CONCEPT_SCORE_ELIMINATION.php.htm" tppabs="CONCEPT_SCORE_ELIMINATION.php"><div id="CONCEPT_SCORE_ELIMINATION" class="menuitem">消灭</div></a>
+				<a href="CONCEPT_SCORE_TIME_TO_VICTORY.php.htm" tppabs="CONCEPT_SCORE_TIME_TO_VICTORY.php"><div id="CONCEPT_SCORE_TIME_TO_VICTORY" class="menuitem">胜利时间</div></a>
+				<a href="CONCEPT_SCORE_VICTORY_POINTS.php.htm" tppabs="CONCEPT_SCORE_VICTORY_POINTS.php"><div id="CONCEPT_SCORE_VICTORY_POINTS" class="menuitem">胜利积分</div></a>
+				<a href="CONCEPT_SCORE_MAP_SIZE.php.htm" tppabs="CONCEPT_SCORE_MAP_SIZE.php"><div id="CONCEPT_SCORE_MAP_SIZE" class="menuitem">地图大小和游戏难度</div></a>
+				<a href="CONCEPT_SCORE_CURRENT_SCORE.php.htm" tppabs="CONCEPT_SCORE_CURRENT_SCORE.php"><div id="CONCEPT_SCORE_CURRENT_SCORE" class="menuitem">你的当前得分</div></a>
+			</div></div>
+			<div id="GROUP_HEADER_ESPIONAGE" class="menugroupcontainer"><a href="javascript:togglediv('HEADER_ESPIONAGE_CONTENT');"><div id="HEADER_ESPIONAGE" class="menugroup">谍报</div></a><div id="HEADER_ESPIONAGE_CONTENT">
+				<a href="CONCEPT_ESPIONAGE_SPIES.php.htm" tppabs="CONCEPT_ESPIONAGE_SPIES.php"><div id="CONCEPT_ESPIONAGE_SPIES" class="menuitem">间谍与外交官</div></a>
+				<a href="CONCEPT_ESPIONAGE_MOVING_SPIES.php.htm" tppabs="CONCEPT_ESPIONAGE_MOVING_SPIES.php"><div id="CONCEPT_ESPIONAGE_MOVING_SPIES" class="menuitem">移动间谍</div></a>
+				<a href="CONCEPT_ESPIONAGE_MORE.php.htm" tppabs="CONCEPT_ESPIONAGE_MORE.php"><div id="CONCEPT_ESPIONAGE_MORE" class="menuitem">获得更多间谍</div></a>
+				<a href="CONCEPT_ESPIONAGE_STEALING_TECHS.php.htm" tppabs="CONCEPT_ESPIONAGE_STEALING_TECHS.php"><div id="CONCEPT_ESPIONAGE_STEALING_TECHS" class="menuitem">窃取科技</div></a>
+				<a href="CONCEPT_ESPIONAGE_CANT_STEAL_ANYMORE.php.htm" tppabs="CONCEPT_ESPIONAGE_CANT_STEAL_ANYMORE.php"><div id="CONCEPT_ESPIONAGE_CANT_STEAL_ANYMORE" class="menuitem">落后文明</div></a>
+				<a href="CONCEPT_ESPIONAGE_RIG_ELECTION.php.htm" tppabs="CONCEPT_ESPIONAGE_RIG_ELECTION.php"><div id="CONCEPT_ESPIONAGE_RIG_ELECTION" class="menuitem">间谍和城邦</div></a>
+				<a href="CONCEPT_ESPIONAGE_SURVEILLANCE.php.htm" tppabs="CONCEPT_ESPIONAGE_SURVEILLANCE.php"><div id="CONCEPT_ESPIONAGE_SURVEILLANCE" class="menuitem">建立情报站</div></a>
+				<a href="CONCEPT_ESPIONAGE_COUNTER_INTEL.php.htm" tppabs="CONCEPT_ESPIONAGE_COUNTER_INTEL.php"><div id="CONCEPT_ESPIONAGE_COUNTER_INTEL" class="menuitem">反间谍</div></a>
+				<a href="CONCEPT_ESPIONAGE_POLICE_STATION.php.htm" tppabs="CONCEPT_ESPIONAGE_POLICE_STATION.php"><div id="CONCEPT_ESPIONAGE_POLICE_STATION" class="menuitem">治安署和警察局</div></a>
+				<a href="CONCEPT_ESPIONAGE_NATIONAL_INTELLIGENCE.php.htm" tppabs="CONCEPT_ESPIONAGE_NATIONAL_INTELLIGENCE.php"><div id="CONCEPT_ESPIONAGE_NATIONAL_INTELLIGENCE" class="menuitem">国家情报局</div></a>
+				<a href="CONCEPT_ESPIONAGE_GREAT_FIREWALL.php.htm" tppabs="CONCEPT_ESPIONAGE_GREAT_FIREWALL.php"><div id="CONCEPT_ESPIONAGE_GREAT_FIREWALL" class="menuitem">网络防火长城</div></a>
+				<a href="CONCEPT_ESPIONAGE_PROMOTIONS.php.htm" tppabs="CONCEPT_ESPIONAGE_PROMOTIONS.php"><div id="CONCEPT_ESPIONAGE_PROMOTIONS" class="menuitem">间谍经验</div></a>
+				<a href="CONCEPT_ESPIONAGE_GETTING_CAUGHT.php.htm" tppabs="CONCEPT_ESPIONAGE_GETTING_CAUGHT.php"><div id="CONCEPT_ESPIONAGE_GETTING_CAUGHT" class="menuitem">发现间谍</div></a>
+			</div></div>
+			<div id="GROUP_HEADER_RELIGION" class="menugroupcontainer"><a href="javascript:togglediv('HEADER_RELIGION_CONTENT');"><div id="HEADER_RELIGION" class="menugroup">宗教</div></a><div id="HEADER_RELIGION_CONTENT">
+				<a href="CONCEPT_RELIGION_FAITH_EARNING.php.htm" tppabs="CONCEPT_RELIGION_FAITH_EARNING.php"><div id="CONCEPT_RELIGION_FAITH_EARNING" class="menuitem">获得信仰</div></a>
+				<a href="CONCEPT_RELIGION_PANTHEONS.php.htm" tppabs="CONCEPT_RELIGION_PANTHEONS.php"><div id="CONCEPT_RELIGION_PANTHEONS" class="menuitem">神系</div></a>
+				<a href="CONCEPT_RELIGION_BELIEFS.php.htm" tppabs="CONCEPT_RELIGION_BELIEFS.php"><div id="CONCEPT_RELIGION_BELIEFS" class="menuitem">信条</div></a>
+				<a href="CONCEPT_RELIGION_PANTHEON_BELIEFS.php.htm" tppabs="CONCEPT_RELIGION_PANTHEON_BELIEFS.php"><div id="CONCEPT_RELIGION_PANTHEON_BELIEFS" class="menuitem">神系信条</div></a>
+				<a href="CONCEPT_RELIGION_FOUNDER.php.htm" tppabs="CONCEPT_RELIGION_FOUNDER.php"><div id="CONCEPT_RELIGION_FOUNDER" class="menuitem">创立者信条</div></a>
+				<a href="CONCEPT_RELIGION_FOLLOWER.php.htm" tppabs="CONCEPT_RELIGION_FOLLOWER.php"><div id="CONCEPT_RELIGION_FOLLOWER" class="menuitem">追随者信条</div></a>
+				<a href="CONCEPT_RELIGION_ENHANCER.php.htm" tppabs="CONCEPT_RELIGION_ENHANCER.php"><div id="CONCEPT_RELIGION_ENHANCER" class="menuitem">强化信条</div></a>
+				<a href="CONCEPT_RELIGION_FAITH_SPENDING.php.htm" tppabs="CONCEPT_RELIGION_FAITH_SPENDING.php"><div id="CONCEPT_RELIGION_FAITH_SPENDING" class="menuitem">使用信仰</div></a>
+				<a href="CONCEPT_RELIGION_FOUNDING_RELIGION.php.htm" tppabs="CONCEPT_RELIGION_FOUNDING_RELIGION.php"><div id="CONCEPT_RELIGION_FOUNDING_RELIGION" class="menuitem">创立一支宗教</div></a>
+				<a href="CONCEPT_RELIGION_ENHANCING_RELIGION.php.htm" tppabs="CONCEPT_RELIGION_ENHANCING_RELIGION.php"><div id="CONCEPT_RELIGION_ENHANCING_RELIGION" class="menuitem">强化宗教</div></a>
+				<a href="CONCEPT_RELIGION_SPREADING_RELIGION.php.htm" tppabs="CONCEPT_RELIGION_SPREADING_RELIGION.php"><div id="CONCEPT_RELIGION_SPREADING_RELIGION" class="menuitem">传播宗教</div></a>
+				<a href="CONCEPT_RELIGION_BUILDINGS.php.htm" tppabs="CONCEPT_RELIGION_BUILDINGS.php"><div id="CONCEPT_RELIGION_BUILDINGS" class="menuitem">宗教建筑</div></a>
+				<a href="CONCEPT_RELIGION_UNITS.php.htm" tppabs="CONCEPT_RELIGION_UNITS.php"><div id="CONCEPT_RELIGION_UNITS" class="menuitem">宗教单位</div></a>
+				<a href="CONCEPT_RELIGION_MAJORITY.php.htm" tppabs="CONCEPT_RELIGION_MAJORITY.php"><div id="CONCEPT_RELIGION_MAJORITY" class="menuitem">主流宗教</div></a>
+				<a href="CONCEPT_RELIGION_DEFENDING.php.htm" tppabs="CONCEPT_RELIGION_DEFENDING.php"><div id="CONCEPT_RELIGION_DEFENDING" class="menuitem">防御敌对宗教</div></a>
+				<a href="CONCEPT_RELIGION_CITY_STATE_SPREAD_RELIGION.php.htm" tppabs="CONCEPT_RELIGION_CITY_STATE_SPREAD_RELIGION.php"><div id="CONCEPT_RELIGION_CITY_STATE_SPREAD_RELIGION" class="menuitem">宗教和城邦影响</div></a>
+			</div></div>
+			<div id="GROUP_HEADER_TRADE" class="menugroupcontainer"><a href="javascript:togglediv('HEADER_TRADE_CONTENT');"><div id="HEADER_TRADE" class="menugroup">交易</div></a><div id="HEADER_TRADE_CONTENT">
+				<a href="CONCEPT_TRADE_ROUTES.php.htm" tppabs="CONCEPT_TRADE_ROUTES.php"><div id="CONCEPT_TRADE_ROUTES" class="menuitem">商路</div></a>
+				<a href="CONCEPT_TRADE_CARAVAN.php.htm" tppabs="CONCEPT_TRADE_CARAVAN.php"><div id="CONCEPT_TRADE_CARAVAN" class="menuitem">商队</div></a>
+				<a href="CONCEPT_TRADE_CARGO.php.htm" tppabs="CONCEPT_TRADE_CARGO.php"><div id="CONCEPT_TRADE_CARGO" class="menuitem">货船</div></a>
+				<a href="CONCEPT_TRADE_EXTENDING.php.htm" tppabs="CONCEPT_TRADE_EXTENDING.php"><div id="CONCEPT_TRADE_EXTENDING" class="menuitem">扩展商路的范围</div></a>
+				<a href="CONCEPT_TRADE_BOOST.php.htm" tppabs="CONCEPT_TRADE_BOOST.php"><div id="CONCEPT_TRADE_BOOST" class="menuitem">建筑的额外收入</div></a>
+				<a href="CONCEPT_TRADE_WAR.php.htm" tppabs="CONCEPT_TRADE_WAR.php"><div id="CONCEPT_TRADE_WAR" class="menuitem">战争影响</div></a>
+				<a href="CONCEPT_TRADE_PILLAGE.php.htm" tppabs="CONCEPT_TRADE_PILLAGE.php"><div id="CONCEPT_TRADE_PILLAGE" class="menuitem">劫掠商路</div></a>
+				<a href="CONCEPT_TRADE_RELIGION.php.htm" tppabs="CONCEPT_TRADE_RELIGION.php"><div id="CONCEPT_TRADE_RELIGION" class="menuitem">宗教与商路</div></a>
+				<a href="CONCEPT_TRADE_SCIENCE.php.htm" tppabs="CONCEPT_TRADE_SCIENCE.php"><div id="CONCEPT_TRADE_SCIENCE" class="menuitem">商路和科研</div></a>
+			</div></div>
+			<div id="GROUP_HEADER_WORLDCONGRESS" class="menugroupcontainer"><a href="javascript:togglediv('HEADER_WORLDCONGRESS_CONTENT');"><div id="HEADER_WORLDCONGRESS" class="menugroup">世界议会</div></a><div id="HEADER_WORLDCONGRESS_CONTENT">
+				<a href="CONCEPT_CONGRESS.php.htm" tppabs="CONCEPT_CONGRESS.php"><div id="CONCEPT_CONGRESS" class="menuitem">世界议会</div></a>
+				<a href="CONCEPT_CONGRESS_SESSIONS.php.htm" tppabs="CONCEPT_CONGRESS_SESSIONS.php"><div id="CONCEPT_CONGRESS_SESSIONS" class="menuitem">会议</div></a>
+				<a href="CONCEPT_CONGRESS_RESOLUTIONS.php.htm" tppabs="CONCEPT_CONGRESS_RESOLUTIONS.php"><div id="CONCEPT_CONGRESS_RESOLUTIONS" class="menuitem">决议</div></a>
+				<a href="CONCEPT_CONGRESS_PROJECTS.php.htm" tppabs="CONCEPT_CONGRESS_PROJECTS.php"><div id="CONCEPT_CONGRESS_PROJECTS" class="menuitem">国际盛事</div></a>
+				<a href="CONCEPT_CONGRESS_DELEGATES.php.htm" tppabs="CONCEPT_CONGRESS_DELEGATES.php"><div id="CONCEPT_CONGRESS_DELEGATES" class="menuitem">代表</div></a>
+				<a href="CONCEPT_CONGRESS_TRADING.php.htm" tppabs="CONCEPT_CONGRESS_TRADING.php"><div id="CONCEPT_CONGRESS_TRADING" class="menuitem">交易支持</div></a>
+				<a href="CONCEPT_CONGRESS_INTRIGUE.php.htm" tppabs="CONCEPT_CONGRESS_INTRIGUE.php"><div id="CONCEPT_CONGRESS_INTRIGUE" class="menuitem">阴谋</div></a>
+				<a href="CONCEPT_CONGRESS_UN.php.htm" tppabs="CONCEPT_CONGRESS_UN.php"><div id="CONCEPT_CONGRESS_UN" class="menuitem">联合国</div></a>
+				<a href="CONCEPT_CONGRESS_VICTORY.php.htm" tppabs="CONCEPT_CONGRESS_VICTORY.php"><div id="CONCEPT_CONGRESS_VICTORY" class="menuitem">外交胜利</div></a>
+			</div></div>
+			</div>
+			<div>	<div class="contentleft">
+		&nbsp;
+	</div>
+	<div class="contentright">
+		<div class="title">财宝</div>
+		<h2>摘要:</h2><div class="t"><div class="b"><div class="l"><div class="r"><div class="bl"><div class="br"><div class="tl"><div class="tr">遗迹会向你的文明提供金钱！</div></div></div></div></div></div></div></div>
+	</div>
+﻿			</div>
+		</div>
+		<div class="borderbottom">&nbsp;</div>
+		<div class="footer">
+			<p>文明5在线百科汉化版基于<a href="http://tieba.baidu.com/f?kw=%E6%96%87%E6%98%8E%E8%81%94%E7%9B%9F" target="_blank">塞爱维·文明联盟</a>与<a href="http://www.591danji.com/" target="_blank">游翔·天邈</a>联合制作的文明5汉化包，并使用<a href="http://www.dndjunkie.com/civilopedia/" target="_blank">dndjunkie.com</a>的Nebular所提供的程序自动生成。<br />网页图像素材及界面设计均来自<a href="http://www.firaxis.com/" target="_blank">Firaxis</a>游戏公司开发的<a href="http://www.civilization5.com/" target="_blank">文明5</a>游戏。</p>
+		</div>
+	</div>
+</body>
+</html>

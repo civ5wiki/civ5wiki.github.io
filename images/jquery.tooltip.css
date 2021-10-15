@@ -1,0 +1,6 @@
+﻿#tooltip {
+	position: absolute;
+	z-index: 3000;
+}
+}
+#tooltip h3, #tooltip div { margin: 0; }
