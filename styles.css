@@ -288,6 +288,7 @@ select option
 	background-repeat: no-repeat;
 	padding-top: 7px;
 	text-shadow: #92B3B6 0em 0em 0.2em, #92B3B6 0em 0em 0.2em, #92B3B6 0em 0em 0.2em, #92B3B6 0em 0em 0.2em;
+  line-height: normal;
 }
 .titlelink
 {
