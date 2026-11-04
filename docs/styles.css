@@ -32,24 +32,6 @@ h2 {
   font-weight: normal;
 }
 
-select {
-  background: url(images/selectbackground.webp);
-  background-color: #041313;
-  border: 0px;
-  width: 100px;
-  height: 16px;
-  color: #ffffff;
-  vertical-align: center;
-  font-size: 11px;
-  line-height: 16px;
-}
-
-select option {
-  background: url(images/selectbackground.webp);
-  height: 16px;
-  text-indent: 5px;
-}
-
 /* Box */
 .t {
   background: url(images/t.webp) 0 0 repeat-x #000;
