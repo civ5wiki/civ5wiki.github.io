@@ -33,7 +33,7 @@ h2 {
 }
 
 select {
-  background: url(images/selectbackground.png);
+  background: url(images/selectbackground.webp);
   background-color: #041313;
   border: 0px;
   width: 100px;
@@ -45,43 +45,43 @@ select {
 }
 
 select option {
-  background: url(images/selectbackground.png);
+  background: url(images/selectbackground.webp);
   height: 16px;
   text-indent: 5px;
 }
 
 /* Box */
 .t {
-  background: url(images/t.png) 0 0 repeat-x #000;
+  background: url(images/t.webp) 0 0 repeat-x #000;
   margin-bottom: 10px;
 }
 
 .b {
-  background: url(images/b.png) 0 100% repeat-x
+  background: url(images/b.webp) 0 100% repeat-x
 }
 
 .l {
-  background: url(images/l.png) 0 0 repeat-y
+  background: url(images/l.webp) 0 0 repeat-y
 }
 
 .r {
-  background: url(images/r.png) 100% 0 repeat-y
+  background: url(images/r.webp) 100% 0 repeat-y
 }
 
 .bl {
-  background: url(images/bl.png) 0 100% no-repeat
+  background: url(images/bl.webp) 0 100% no-repeat
 }
 
 .br {
-  background: url(images/br.png) 100% 100% no-repeat
+  background: url(images/br.webp) 100% 100% no-repeat
 }
 
 .tl {
-  background: url(images/tl.png) 0 0 no-repeat
+  background: url(images/tl.webp) 0 0 no-repeat
 }
 
 .tr {
-  background: url(images/tr.png) 100% 0 no-repeat;
+  background: url(images/tr.webp) 100% 0 no-repeat;
   padding: 10px;
   font-size: 14px;
   line-height: 22px
@@ -117,7 +117,7 @@ select option {
   width: 1024px;
   height: 37px;
   background-color: #000000;
-  background-image: url('images/civilopedia.png');
+  background-image: url('images/civilopedia.webp');
   background-repeat: no-repeat;
   text-align: center;
   font-size: 20px;
@@ -147,7 +147,7 @@ select option {
   line-height: 38px;
   height: 38px;
   text-align: center;
-  background-image: url('images/border_top.png');
+  background-image: url('images/border_top.webp');
   background-repeat: no-repeat;
   vertical-align: bottom;
 }
@@ -158,7 +158,7 @@ select option {
   float: left;
   height: 54px;
   text-align: center;
-  background-image: url('images/border_bottom.png');
+  background-image: url('images/border_bottom.webp');
   background-repeat: no-repeat;
 }
 
@@ -171,7 +171,7 @@ select option {
   margin-left: 5px;
   float: left;
   width: 1013px;
-  background-image: url('images/background.png');
+  background-image: url('images/background.webp');
   background-repeat: repeat-y;
 }
 
@@ -206,13 +206,13 @@ select option {
   height: 27px;
   line-height: 25px;
   vertical-align: middle;
-  background-image: url('images/menugroup.png');
+  background-image: url('images/menugroup.webp');
   background-repeat: no-repeat;
   text-shadow: #82A3A6 0em 0em 0.2em, #82A3A6 0em 0em 0.2em;
 }
 
 .menugroup:hover {
-  background-image: url('images/menugrouphover.png');
+  background-image: url('images/menugrouphover.webp');
   background-repeat: no-repeat;
 }
 
@@ -224,13 +224,13 @@ select option {
   height: 21px;
   line-height: 19px;
   vertical-align: middle;
-  background-image: url('images/menuitem.png');
+  background-image: url('images/menuitem.webp');
   background-repeat: no-repeat;
   text-decoration: none;
 }
 
 .menuitem:hover {
-  background-image: url('images/menuitemhover.png');
+  background-image: url('images/menuitemhover.webp');
   background-repeat: no-repeat;
   text-decoration: none;
 }
@@ -270,7 +270,7 @@ select option {
   height: 36px;
   font-size: 17px;
   text-align: center;
-  background-image: url('images/title.png');
+  background-image: url('images/title.webp');
   background-repeat: no-repeat;
   padding-top: 7px;
   text-shadow: #92B3B6 0em 0em 0.2em, #92B3B6 0em 0em 0.2em, #92B3B6 0em 0em 0.2em, #92B3B6 0em 0em 0.2em;

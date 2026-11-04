@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-cn">
+<head><meta http-equiv=Content-Type content='text/html; charset=utf-8'>
+
+	<title>文明5在线百科: 科技</title>
+	<meta name="keywords" content="civilopedia,civilopedia online,civilization,civilization V,civilization 5,civilization5,technology,technologies" />
+	<meta name="description" content="文明5在线百科" />
+	<link rel="Stylesheet" type="text/css" href="styles.css" />
+  <link rel="shortcut icon" href="images/favicon.ico">
+	<script type="text/javascript" src="skinnytip.js"></script>
+</head>
+<body>
+	<div id="tiplayer" style="position:absolute; visibility:hidden; z-index:10000;"></div>
+	<div class="container">
+		<div class="header"><a href="index.html" class="titlelink">文明5在线百科</a></div>
+		<div class="tabrow">
+			<a href="CONCEPT_HOME.htm" onmouseover="return tooltip('游戏概念');" onmouseout="return hideTip();"><img src="images/tab_concept_off.webp" class="tab" id="tab01" onmouseover="this.src='images/tab_concept_on.webp';" onmouseout="this.src='images/tab_concept_off.webp';" /></a>
+			<a href="TECH_HOME.htm" onmouseover="return tooltip('科技');" onmouseout="return hideTip();"><img src="images/tab_tech_on.webp" class="tab" id="tab02" /></a>
+			<a href="UNIT_HOME.htm" onmouseover="return tooltip('单位');" onmouseout="return hideTip();"><img src="images/tab_unit_off.webp" class="tab" id="tab03" onmouseover="this.src='images/tab_unit_on.webp';" onmouseout="this.src='images/tab_unit_off.webp';" /></a>
+			<a href="PROMOTION_HOME.htm" onmouseover="return tooltip('晋升');" onmouseout="return hideTip();"><img src="images/tab_promotion_off.webp" class="tab" id="tab04" onmouseover="this.src='images/tab_promotion_on.webp';" onmouseout="this.src='images/tab_promotion_off.webp';" /></a>
+			<a href="BUILDING_HOME.htm" onmouseover="return tooltip('建筑');" onmouseout="return hideTip();"><img src="images/tab_building_off.webp" class="tab" id="tab05" onmouseover="this.src='images/tab_building_on.webp';" onmouseout="this.src='images/tab_building_off.webp';" /></a>
+			<a href="WONDER_HOME.htm" onmouseover="return tooltip('奇观');" onmouseout="return hideTip();"><img src="images/tab_wonder_off.webp" class="tab" id="tab06" onmouseover="this.src='images/tab_wonder_on.webp';" onmouseout="this.src='images/tab_wonder_off.webp';" /></a>
+			<a href="POLICY_HOME.htm" onmouseover="return tooltip('社会政策');" onmouseout="return hideTip();"><img src="images/tab_policy_off.webp" class="tab" id="tab07" onmouseover="this.src='images/tab_policy_on.webp';" onmouseout="this.src='images/tab_policy_off.webp';" /></a>
+			<a href="GREAT_PERSON_HOME.htm" onmouseover="return tooltip('专业人员和伟人');" onmouseout="return hideTip();"><img src="images/tab_great_people_off.webp" class="tab" id="tab08" onmouseover="this.src='images/tab_great_people_on.webp';" onmouseout="this.src='images/tab_great_people_off.webp';" /></a>
+			<a href="CIVILIZATION_HOME.htm" onmouseover="return tooltip('文明和领袖');" onmouseout="return hideTip();"><img src="images/tab_civilization_off.webp" class="tab" id="tab09" onmouseover="this.src='images/tab_civilization_on.webp';" onmouseout="this.src='images/tab_civilization_off.webp';" /></a>
+			<a href="CITY_STATE_HOME.htm" onmouseover="return tooltip('城邦');" onmouseout="return hideTip();"><img src="images/tab_city_state_off.webp" class="tab" id="tab10" onmouseover="this.src='images/tab_city_state_on.webp';" onmouseout="this.src='images/tab_city_state_off.webp';" /></a>
+			<a href="TERRAIN_HOME.htm" onmouseover="return tooltip('地形和地貌');" onmouseout="return hideTip();"><img src="images/tab_terrain_off.webp" class="tab" id="tab11" onmouseover="this.src='images/tab_terrain_on.webp';" onmouseout="this.src='images/tab_terrain_off.webp';" /></a>
+			<a href="RESOURCE_HOME.htm" onmouseover="return tooltip('资源');" onmouseout="return hideTip();"><img src="images/tab_resources_off.webp" class="tab" id="tab12" onmouseover="this.src='images/tab_resources_on.webp';" onmouseout="this.src='images/tab_resources_off.webp';" /></a>
+			<a href="IMPROVEMENT_HOME.htm" onmouseover="return tooltip('地域设施');" onmouseout="return hideTip();"><img src="images/tab_improvement_off.webp" class="tab" id="tab13" onmouseover="this.src='images/tab_improvement_on.webp';" onmouseout="this.src='images/tab_improvement_off.webp';" /></a>
+			<a href="RELIGION_HOME.htm" onmouseover="return tooltip('宗教');" onmouseout="return hideTip();"><img src="images/tab_religion_off.webp" class="tab" id="tab14" onmouseover="this.src='images/tab_religion_on.webp';" onmouseout="this.src='images/tab_religion_off.webp';" /></a>
+			<a href="RESOLUTION_HOME.htm" onmouseover="return tooltip('世界议会');" onmouseout="return hideTip();"><img src="images/tab_resolution_off.webp" class="tab" id="tab15" onmouseover="this.src='images/tab_resolution_on.webp';" onmouseout="this.src='images/tab_resolution_off.webp';" /></a>
+		</div>
+		<div class="bordertop">科技
+		</div>
+		<div class="content">
+			<div class="menu">
+				
+				<a href="TECH_HOME.htm"><div id="TECH_HOME" class="menuitem">科技主页</div></a>
+			<div id="GROUP_ERA_ANCIENT" class="menugroupcontainer"><a href="javascript:togglediv('ERA_ANCIENT_CONTENT');"><div id="ERA_ANCIENT" class="menugroup">远古时代</div></a><div id="ERA_ANCIENT_CONTENT">
+				<a href="TECH_TRAPPING.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_TRAPPING.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_TRAPPING" class="menuitem">捕猎</div></a>
+				<a href="TECH_MINING.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_MINING.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_MINING" class="menuitem">采矿</div></a>
+				<a href="TECH_SAILING.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_SAILING.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_SAILING" class="menuitem">帆船</div></a>
+				<a href="TECH_ARCHERY.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_ARCHERY.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_ARCHERY" class="menuitem">弓箭</div></a>
+				<a href="TECH_ANIMAL_HUSBANDRY.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_ANIMAL_HUSBANDRY.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_ANIMAL_HUSBANDRY" class="menuitem">家畜驯养</div></a>
+				<a href="TECH_CALENDAR.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_CALENDAR.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_CALENDAR" class="menuitem">历法</div></a>
+				<a href="TECH_THE_WHEEL.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_THE_WHEEL.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_THE_WHEEL" class="menuitem">轮子</div></a>
+				<a href="TECH_AGRICULTURE.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_AGRICULTURE.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_AGRICULTURE" class="menuitem">农业</div></a>
+				<a href="TECH_BRONZE_WORKING.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_BRONZE_WORKING.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_BRONZE_WORKING" class="menuitem">青铜器</div></a>
+				<a href="TECH_MASONRY.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_MASONRY.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_MASONRY" class="menuitem">石工术</div></a>
+				<a href="TECH_WRITING.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_WRITING.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_WRITING" class="menuitem">文字</div></a>
+				<a href="TECH_POTTERY.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_POTTERY.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_POTTERY" class="menuitem">制陶</div></a>
+			</div></div>
+			<div id="GROUP_ERA_CLASSICAL" class="menugroupcontainer"><a href="javascript:togglediv('ERA_CLASSICAL_CONTENT');"><div id="ERA_CLASSICAL" class="menugroup">古典时代</div></a><div id="ERA_CLASSICAL_CONTENT">
+				<a href="TECH_ENGINEERING.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_ENGINEERING.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_ENGINEERING" class="menuitem">工程学</div></a>
+				<a href="TECH_OPTICS.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_OPTICS.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_OPTICS" class="menuitem">光学</div></a>
+				<a href="TECH_CURRENCY.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_CURRENCY.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_CURRENCY" class="menuitem">货币制度</div></a>
+				<a href="TECH_CONSTRUCTION.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_CONSTRUCTION.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_CONSTRUCTION" class="menuitem">建筑构造学</div></a>
+				<a href="TECH_HORSEBACK_RIDING.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_HORSEBACK_RIDING.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_HORSEBACK_RIDING" class="menuitem">骑术</div></a>
+				<a href="TECH_MATHEMATICS.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_MATHEMATICS.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_MATHEMATICS" class="menuitem">数学</div></a>
+				<a href="TECH_IRON_WORKING.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_IRON_WORKING.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_IRON_WORKING" class="menuitem">铁器</div></a>
+				<a href="TECH_DRAMA.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_DRAMA.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_DRAMA" class="menuitem">戏剧与诗歌</div></a>
+				<a href="TECH_PHILOSOPHY.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_PHILOSOPHY.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_PHILOSOPHY" class="menuitem">哲学</div></a>
+			</div></div>
+			<div id="GROUP_ERA_MEDIEVAL" class="menugroupcontainer"><a href="javascript:togglediv('ERA_MEDIEVAL_CONTENT');"><div id="ERA_MEDIEVAL" class="menugroup">中古时代</div></a><div id="ERA_MEDIEVAL_CONTENT">
+				<a href="TECH_GUILDS.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_GUILDS.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_GUILDS" class="menuitem">行会</div></a>
+				<a href="TECH_MACHINERY.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_MACHINERY.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_MACHINERY" class="menuitem">机械</div></a>
+				<a href="TECH_EDUCATION.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_EDUCATION.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_EDUCATION" class="menuitem">教育学</div></a>
+				<a href="TECH_METAL_CASTING.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_METAL_CASTING.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_METAL_CASTING" class="menuitem">金属铸造</div></a>
+				<a href="TECH_STEEL.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_STEEL.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_STEEL" class="menuitem">炼钢</div></a>
+				<a href="TECH_COMPASS.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_COMPASS.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_COMPASS" class="menuitem">罗盘</div></a>
+				<a href="TECH_CHIVALRY.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_CHIVALRY.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_CHIVALRY" class="menuitem">骑士制度</div></a>
+				<a href="TECH_THEOLOGY.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_THEOLOGY.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_THEOLOGY" class="menuitem">神学</div></a>
+				<a href="TECH_CIVIL_SERVICE.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_CIVIL_SERVICE.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_CIVIL_SERVICE" class="menuitem">文官制度</div></a>
+				<a href="TECH_PHYSICS.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_PHYSICS.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_PHYSICS" class="menuitem">物理学</div></a>
+			</div></div>
+			<div id="GROUP_ERA_RENAISSANCE" class="menugroupcontainer"><a href="javascript:togglediv('ERA_RENAISSANCE_CONTENT');"><div id="ERA_RENAISSANCE" class="menugroup">启蒙时代</div></a><div id="ERA_RENAISSANCE_CONTENT">
+				<a href="TECH_NAVIGATION.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_NAVIGATION.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_NAVIGATION" class="menuitem">导航术</div></a>
+				<a href="TECH_CHEMISTRY.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_CHEMISTRY.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_CHEMISTRY" class="menuitem">化学</div></a>
+				<a href="TECH_GUNPOWDER.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_GUNPOWDER.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_GUNPOWDER" class="menuitem">火药</div></a>
+				<a href="TECH_ARCHITECTURE.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_ARCHITECTURE.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_ARCHITECTURE" class="menuitem">建筑设计学</div></a>
+				<a href="TECH_ECONOMICS.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_ECONOMICS.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_ECONOMICS" class="menuitem">经济学</div></a>
+				<a href="TECH_ACOUSTICS.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_ACOUSTICS.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_ACOUSTICS" class="menuitem">声学</div></a>
+				<a href="TECH_ASTRONOMY.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_ASTRONOMY.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_ASTRONOMY" class="menuitem">天文学</div></a>
+				<a href="TECH_METALLURGY.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_METALLURGY.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_METALLURGY" class="menuitem">冶金学</div></a>
+				<a href="TECH_BANKING.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_BANKING.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_BANKING" class="menuitem">银行业</div></a>
+				<a href="TECH_PRINTING_PRESS.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_PRINTING_PRESS.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_PRINTING_PRESS" class="menuitem">印刷机</div></a>
+			</div></div>
+			<div id="GROUP_ERA_INDUSTRIAL" class="menugroupcontainer"><a href="javascript:togglediv('ERA_INDUSTRIAL_CONTENT');"><div id="ERA_INDUSTRIAL" class="menugroup">工业时代</div></a><div id="ERA_INDUSTRIAL_CONTENT">
+				<a href="TECH_ELECTRICITY.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_ELECTRICITY.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_ELECTRICITY" class="menuitem">电学</div></a>
+				<a href="TECH_INDUSTRIALIZATION.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_INDUSTRIALIZATION.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_INDUSTRIALIZATION" class="menuitem">工业化</div></a>
+				<a href="TECH_FERTILIZER.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_FERTILIZER.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_FERTILIZER" class="menuitem">化肥</div></a>
+				<a href="TECH_MILITARY_SCIENCE.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_MILITARY_SCIENCE.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_MILITARY_SCIENCE" class="menuitem">军事科学</div></a>
+				<a href="TECH_ARCHAEOLOGY.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_ARCHAEOLOGY.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_ARCHAEOLOGY" class="menuitem">考古学</div></a>
+				<a href="TECH_SCIENTIFIC_THEORY.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_SCIENTIFIC_THEORY.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_SCIENTIFIC_THEORY" class="menuitem">科学理论</div></a>
+				<a href="TECH_BIOLOGY.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_BIOLOGY.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_BIOLOGY" class="menuitem">生物学</div></a>
+				<a href="TECH_RIFLING.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_RIFLING.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_RIFLING" class="menuitem">膛线</div></a>
+				<a href="TECH_DYNAMITE.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_DYNAMITE.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_DYNAMITE" class="menuitem">炸药</div></a>
+				<a href="TECH_STEAM_POWER.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_STEAM_POWER.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_STEAM_POWER" class="menuitem">蒸汽机</div></a>
+			</div></div>
+			<div id="GROUP_ERA_MODERN" class="menugroupcontainer"><a href="javascript:togglediv('ERA_MODERN_CONTENT');"><div id="ERA_MODERN" class="menugroup">电气时代</div></a><div id="ERA_MODERN_CONTENT">
+				<a href="TECH_BALLISTICS.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_BALLISTICS.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_BALLISTICS" class="menuitem">弹道学</div></a>
+				<a href="TECH_ELECTRONICS.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_ELECTRONICS.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_ELECTRONICS" class="menuitem">电子学</div></a>
+				<a href="TECH_FLIGHT.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_FLIGHT.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_FLIGHT" class="menuitem">航空</div></a>
+				<a href="TECH_REPLACEABLE_PARTS.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_REPLACEABLE_PARTS.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_REPLACEABLE_PARTS" class="menuitem">可更换部件</div></a>
+				<a href="TECH_COMBUSTION.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_COMBUSTION.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_COMBUSTION" class="menuitem">内燃机</div></a>
+				<a href="TECH_PLASTIC.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_PLASTIC.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_PLASTIC" class="menuitem">塑料</div></a>
+				<a href="TECH_RAILROAD.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_RAILROAD.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_RAILROAD" class="menuitem">铁路</div></a>
+				<a href="TECH_RADIO.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_RADIO.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_RADIO" class="menuitem">无线电</div></a>
+				<a href="TECH_REFRIGERATION.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_REFRIGERATION.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_REFRIGERATION" class="menuitem">致冷</div></a>
+			</div></div>
+			<div id="GROUP_ERA_POSTMODERN" class="menugroupcontainer"><a href="javascript:togglediv('ERA_POSTMODERN_CONTENT');"><div id="ERA_POSTMODERN" class="menugroup">原子时代</div></a><div id="ERA_POSTMODERN_CONTENT">
+				<a href="TECH_COMPUTERS.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_COMPUTERS.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_COMPUTERS" class="menuitem">电子计算机</div></a>
+				<a href="TECH_NUCLEAR_FISSION.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_NUCLEAR_FISSION.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_NUCLEAR_FISSION" class="menuitem">核裂变</div></a>
+				<a href="TECH_ROCKETRY.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_ROCKETRY.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_ROCKETRY" class="menuitem">火箭</div></a>
+				<a href="TECH_RADAR.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_RADAR.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_RADAR" class="menuitem">雷达</div></a>
+				<a href="TECH_PENICILIN.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_PENICILIN.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_PENICILIN" class="menuitem">青霉素</div></a>
+				<a href="TECH_ECOLOGY.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_ECOLOGY.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_ECOLOGY" class="menuitem">生态学</div></a>
+				<a href="TECH_COMBINED_ARMS.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_COMBINED_ARMS.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_COMBINED_ARMS" class="menuitem">协同作战</div></a>
+				<a href="TECH_ATOMIC_THEORY.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_ATOMIC_THEORY.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_ATOMIC_THEORY" class="menuitem">原子理论</div></a>
+			</div></div>
+			<div id="GROUP_ERA_FUTURE" class="menugroupcontainer"><a href="javascript:togglediv('ERA_FUTURE_CONTENT');"><div id="ERA_FUTURE" class="menugroup">信息时代</div></a><div id="ERA_FUTURE_CONTENT">
+				<a href="TECH_ADVANCED_BALLISTICS.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_ADVANCED_BALLISTICS.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_ADVANCED_BALLISTICS" class="menuitem">高级弹道学</div></a>
+				<a href="TECH_NUCLEAR_FUSION.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_NUCLEAR_FUSION.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_NUCLEAR_FUSION" class="menuitem">核聚变</div></a>
+				<a href="TECH_MOBILE_TACTICS.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_MOBILE_TACTICS.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_MOBILE_TACTICS" class="menuitem">机动战术</div></a>
+				<a href="TECH_ROBOTICS.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_ROBOTICS.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_ROBOTICS" class="menuitem">机器人</div></a>
+				<a href="TECH_LASERS.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_LASERS.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_LASERS" class="menuitem">激光</div></a>
+				<a href="TECH_PARTICLE_PHYSICS.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_PARTICLE_PHYSICS.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_PARTICLE_PHYSICS" class="menuitem">粒子物理学</div></a>
+				<a href="TECH_NANOTECHNOLOGY.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_NANOTECHNOLOGY.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_NANOTECHNOLOGY" class="menuitem">纳米技术</div></a>
+				<a href="TECH_GLOBALIZATION.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_GLOBALIZATION.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_GLOBALIZATION" class="menuitem">全球化</div></a>
+				<a href="TECH_SATELLITES.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_SATELLITES.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_SATELLITES" class="menuitem">人造卫星</div></a>
+				<a href="TECH_FUTURE_TECH.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_FUTURE_TECH.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_FUTURE_TECH" class="menuitem">未来科技</div></a>
+				<a href="TECH_INTERNET.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_INTERNET.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_INTERNET" class="menuitem">因特网</div></a>
+				<a href="TECH_STEALTH.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_STEALTH.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_STEALTH" class="menuitem">隐形</div></a>
+				<a href="TECH_TELECOM.htm" onmouseover="return tooltip('<img src=\'images/small/TECH_TELECOM.webp\' />', true);" onmouseout="return hideTip();"><div id="TECH_TELECOM" class="menuitem">远程通信</div></a>
+			</div></div>
+			</div>
+			<div>	<img src="images/large/TECH_BANKING.webp" alt="银行业" class="contentimage" />
+	<div class="contentleft">
+		<h2>花费:</h2><div class="t"><div class="b"><div class="l"><div class="r"><div class="bl"><div class="br"><div class="tl"><div class="tr">780 <img src="images/research.webp" alt="research" /></div></div></div></div></div></div></div></div>
+		<h2>前提科技:</h2><div class="t"><div class="b"><div class="l"><div class="r"><div class="bl"><div class="br"><div class="tl"><div class="tr"><a href="TECH_EDUCATION.htm" onmouseover="return tooltip('教育学');" onmouseout="return hideTip();"><img src="images/small/TECH_EDUCATION.webp" /></a><a href="TECH_CHIVALRY.htm" onmouseover="return tooltip('骑士制度');" onmouseout="return hideTip();"><img src="images/small/TECH_CHIVALRY.webp" /></a></div></div></div></div></div></div></div></div>
+		<h2>后继科技:</h2><div class="t"><div class="b"><div class="l"><div class="r"><div class="bl"><div class="br"><div class="tl"><div class="tr"><a href="TECH_ARCHITECTURE.htm" onmouseover="return tooltip('建筑设计学');" onmouseout="return hideTip();"><img src="images/small/TECH_ARCHITECTURE.webp" /></a><a href="TECH_ECONOMICS.htm" onmouseover="return tooltip('经济学');" onmouseout="return hideTip();"><img src="images/small/TECH_ECONOMICS.webp" /></a></div></div></div></div></div></div></div></div>
+		
+		<h2>启用建筑:</h2><div class="t"><div class="b"><div class="l"><div class="r"><div class="bl"><div class="br"><div class="tl"><div class="tr"><a href="BUILDING_CONSTABLE.htm" onmouseover="return tooltip('治安署');" onmouseout="return hideTip();"><img src="images/small/BUILDING_CONSTABLE.webp" /></a><a href="BUILDING_SATRAPS_COURT.htm" onmouseover="return tooltip('总督府');" onmouseout="return hideTip();"><img src="images/small/BUILDING_SATRAPS_COURT.webp" /></a><a href="BUILDING_BANK.htm" onmouseover="return tooltip('银行');" onmouseout="return hideTip();"><img src="images/small/BUILDING_BANK.webp" /></a><a href="BUILDING_FORBIDDEN_PALACE.htm" onmouseover="return tooltip('紫禁城');" onmouseout="return hideTip();"><img src="images/small/BUILDING_FORBIDDEN_PALACE.webp" /></a><a href="BUILDING_HANSE.htm" onmouseover="return tooltip('同业公会');" onmouseout="return hideTip();"><img src="images/small/BUILDING_HANSE.webp" /></a></div></div></div></div></div></div></div></div>
+        
+		
+		
+	</div>
+	<div class="contentright">
+		<div class="title">银行业</div>
+		<h2>游戏信息:</h2><div class="t"><div class="b"><div class="l"><div class="r"><div class="bl"><div class="br"><div class="tl"><div class="tr">允许你建造<span class="color_positive_text">银行</span>，一种能增加城市<img src="images/gold.webp" alt="gold" />金钱产出的建筑，以及<span class="color_positive_text">治安署</span>，可以削弱敌方间谍窃取你的科技的能力。</div></div></div></div></div></div></div></div>
+		
+		<h2>引言:</h2><div class="t"><div class="b"><div class="l"><div class="r"><div class="bl"><div class="br"><div class="tl"><div class="tr"><br />“幸福：一个好的银行账户，一个好厨师和一个好胃口。”<br />　　　　——让·雅克·卢梭<br /></div></div></div></div></div></div></div></div>
+		<h2>历史信息:</h2><div class="t"><div class="b"><div class="l"><div class="r"><div class="bl"><div class="br"><div class="tl"><div class="tr">历史上最早的银行很可能是宗教寺庙，大约在公元前3000年设立。事实上，银行可能早于货币：最早的存款很可能是以谷物的形式。在公元前18世纪的巴比伦，伟大的领袖汉谟拉比在他著名的法典中写下了规范银行的法律。希腊人进一步发展了银行，有记录显示寺庙及其他金融机构发放贷款、接受存款、兑换货币和验证钱币（以确保他们不是伪造的）。罗马人继续在希腊模式的基础上发展了银行，但是当罗马帝国崩溃时，欧洲的大多数金融机构也跟着消失了。此后银行在欧洲的大部分地区无人知晓，直到中世纪时人们为了资助十字军东征又重新发明了银行。<br /><br />在今天，银行职能大体上和在古希腊时代没什么不同。银行收取货币存款，储户可以在需要的时候取出存款并获得利息。银行把资金借贷给贷款者，货款者到期会偿还货款及相应的利息）。银行还提供兑换外币，签发支票等服务。<br /><br />银行在社会的价值在于，它能把钱集中投资于大项目。假如有人想建立一座印刷厂，需要为1000金币，远远超过他所能负担的。在有银行之前唯一有能力资助他的只有王室或者教会，如果这些人不感兴趣，这个计划就会陷入僵局。一旦有了银行，这个人就可以去银行贷款。如果银行认为他的项目是合理的，并且他拥有良好的信誉，他就能得到所需的资金。<br /><br />如果没有银行，一般的公民很难完成任何大事业。</div></div></div></div></div></div></div></div>
+	</div>
+    </div>
+		</div>
+		<div class="borderbottom">&nbsp;</div>
+		<div class="footer">
+			<p>文明5在线百科汉化版基于<a href="http://tieba.baidu.com/f?kw=%E6%96%87%E6%98%8E%E8%81%94%E7%9B%9F" target="_blank">塞爱维·文明联盟</a>与<a href="http://www.591danji.com/" target="_blank">游翔·天邈</a>联合制作的文明5汉化包，并使用<a href="http://www.dndjunkie.com/civilopedia/" target="_blank">dndjunkie.com</a>的Nebular所提供的程序自动生成。<br />网页图像素材及界面设计均来自<a href="http://www.firaxis.com/" target="_blank">Firaxis</a>游戏公司开发的<a href="http://www.civilization5.com/" target="_blank">文明5</a>游戏。</p>
+		</div>
+	</div>
+</body>
+</html>

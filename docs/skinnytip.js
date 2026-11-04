@@ -136,11 +136,11 @@ function makeHTML(text, blnimage, title) {
 	var container_style = ""; //'border:' + v_border + 'px solid ' + v_bordercolor + ';';
 	//container_style += 'background-color:' + v_backcolor + ';';
 	if (!blnimage) {
-		container_style += "background-image: url(\'images/tipcentre.png\');";
+		container_style += "background-image: url(\'images/tipcentre.webp\');";
 		container_style += "line-height: 27px;";
 	}
 	else {
-		container_style += "background-image: url(\'images/small/PROMOTION_BLANK.png\'); height: 64px; width: 64px;";
+		container_style += "height: 64px; width: 64px;";
 	}
 	container_style += 'font-family:' + v_fontface + ';';
 	container_style += 'font-size:' + v_fontsize + 'px;';
@@ -157,7 +157,7 @@ function makeHTML(text, blnimage, title) {
 		txt += '<div id="skinnytip_title" style="' + title_style + '">' + title + '</div>';
 	}
 	if (!blnimage)
-		text = "<img src=\'images/tipleft.png\' style=\'height: 27px; width: 6px;\' />" + text + "<img src=\'images/tipright.png\' style=\'height: 27px; width: 6px;\' />";
+		text = "<img src=\'images/tipleft.webp\' style=\'height: 27px; width: 6px;\' />" + text + "<img src=\'images/tipright.webp\' style=\'height: 27px; width: 6px;\' />";
 	txt += '<div id="skinnytip_content" style="' + content_style + '">' + text + '</div>';
 	txt += '</div>';
 	
